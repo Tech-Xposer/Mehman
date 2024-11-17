@@ -62,7 +62,7 @@ const Promo = () => {
             </div>
             <h3 className="h3 card-title">MURGHI MASALA</h3>
             <p className="card-text">
-              Manger permet à un organisme d'obtenir les nutriments dont il a
+              Manger permet à un organisme d&apos;obtenir les nutriments dont il a
               besoin pour fonctionner.
             </p>
             <img
@@ -173,7 +173,7 @@ const Promo = () => {
             </div>
             <h3 className="h3 card-title">Poulet masala.</h3>
             <p className="card-text">
-              Les aliments sont consommés pour préserver l'équilibre énergétique
+              Les aliments sont consommés pour préserver l&apos;équilibre énergétique
               et biologique du corps.
             </p>
             <img

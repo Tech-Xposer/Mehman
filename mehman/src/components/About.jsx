@@ -28,8 +28,8 @@ const About = () => {
           </h2>
           <p className="section-text">
             Les restaurants de Mehman, un restaurant indien axé sur la culture,
-            ont également accueilli de nombreux visiteurs venus d'autres
-            régions, recherchant un goût authentique de l'Inde. Il est bien
+            ont également accueilli de nombreux visiteurs venus d&apos;autres
+            régions, recherchant un goût authentique de l&apos;Inde. Il est bien
             connu que de nombreuses familles dirigent ces restaurants, apportant
             une touche traditionnelle à chaque plat.
           </p>

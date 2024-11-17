@@ -9,7 +9,7 @@ const StaticMenu = () => {
           Nos délicieux <span className="span">Aliments</span>
         </h2>
         <p className="section-text">
-          Les aliments sont consommés pour préserver l'équilibre énergétique et
+          Les aliments sont consommés pour préserver l&apos;équilibre énergétique et
           biologique du corps.
         </p>
         <ul className="fiter-list">
@@ -208,7 +208,7 @@ const StaticMenu = () => {
                   width={300}
                   height={300}
                   loading="lazy"
-                  alt="Wendy's Chicken"
+                  alt="Wendy&apos;s Chicken"
                   className="w-100"
                 />
                 <div className="badge">-15%</div>
@@ -224,7 +224,7 @@ const StaticMenu = () => {
                   <ion-icon name="star" />
                 </div>
               </div>
-              <h3 className="h3 card-title">Wendy's Chicken</h3>
+              <h3 className="h3 card-title">Wendy&apos;s Chicken</h3>
               <div className="price-wrapper">
                 <p className="price-text">Price:</p>
                 <data className="price" value={49.0}>
