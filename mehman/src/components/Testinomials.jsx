@@ -31,8 +31,8 @@ const Testinomials = () => {
                 </div>
               </div>
               <blockquote className="testi-text">
-                "I would be lost without restaurant. I would like to personally
-                thank you for your outstanding product."
+                I would be lost without restaurant. I would like to personally
+                thank you for your outstanding product.
               </blockquote>
               <div className="rating-wrapper">
                 <ion-icon name="star" />
@@ -61,8 +61,8 @@ const Testinomials = () => {
                 </div>
               </div>
               <blockquote className="testi-text">
-                "I would be lost without restaurant. I would like to personally
-                thank you for your outstanding product."
+                I would be lost without restaurant. I would like to personally
+                thank you for your outstanding product.
               </blockquote>
               <div className="rating-wrapper">
                 <ion-icon name="star" />
@@ -91,8 +91,8 @@ const Testinomials = () => {
                 </div>
               </div>
               <blockquote className="testi-text">
-                "I would be lost without restaurant. I would like to personally
-                thank you for your outstanding product."
+                I would be lost without restaurant. I would like to personally
+                thank you for your outstanding product.
               </blockquote>
               <div className="rating-wrapper">
                 <ion-icon name="star" />
