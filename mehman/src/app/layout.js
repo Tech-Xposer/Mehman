@@ -17,10 +17,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        
-        <link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml"/>
-      </Head>
+      <head>
+        <link rel="icon" href="/favicon.svg" sizes="any" />
+      </head>
       <body id="top">
         <Navbar />
         <SearchBox />
