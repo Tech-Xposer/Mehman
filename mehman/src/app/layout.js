@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <SearchBox />
         {children}
-        <Form />
+        {/* <Form /> */}
         <Footer />
         <BackToTop />
       </body>

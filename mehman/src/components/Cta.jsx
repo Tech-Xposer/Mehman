@@ -3,8 +3,8 @@ import React from "react";
 const Cta = () => {
   return (
     <section
-      className="section section-divider white cta"
-      style={{ backgroundImage: 'url("/assets/images/hero-bg.jpg")' }}
+      className="section section-divider  cta"
+      style={{ backgroundImage: 'url("/assets/images/food-bg.avif")' }}
     >
       <div className="container">
         <div className="cta-content">

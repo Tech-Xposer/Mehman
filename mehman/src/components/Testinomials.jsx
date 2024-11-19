@@ -2,7 +2,7 @@ import React from "react";
 
 const Testinomials = () => {
   return (
-    <section className="section section-divider white testi">
+    <section className="section section-divider black testi">
       <div className="container">
         <p className="section-subtitle">Testimonials</p>
         <h2 className="h2 section-title">

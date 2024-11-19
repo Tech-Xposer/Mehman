@@ -5,7 +5,7 @@ const Hero = () => {
     <section
       className="hero"
       id="home"
-      style={{ backgroundImage: 'url("/assets/images/hero-bg.jpg")' }}
+      style={{ backgroundImage: 'url("/assets/images/grilled-bg.jpg")' }}
     >
       <div className="container">
         <div className="hero-content">
@@ -21,7 +21,7 @@ const Hero = () => {
             Réservez une table
           </button>
         </div>
-        <figure className="hero-banner">
+        {/* <figure className="hero-banner">
           <img
             src="/assets/images/hero-banner-bg.png"
             width={820}
@@ -38,7 +38,7 @@ const Hero = () => {
             alt="Burger"
             className="w-100 hero-img"
           />
-        </figure>
+        </figure> */}
       </div>
     </section>
   );

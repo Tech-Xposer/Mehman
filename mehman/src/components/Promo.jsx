@@ -2,8 +2,9 @@ import React from "react";
 
 const Promo = () => {
   return (
-    <section className="section section-divider white promo">
+    <section className="section section-divider  promo">
     <div className="container">
+    <h2 className="headline-1 section-title">Nous offrons un service de premier ordre</h2>
       <ul className="promo-list has-scrollbar">
         <li className="promo-item">
           <div className="promo-card">

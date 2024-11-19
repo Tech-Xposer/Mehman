@@ -1,38 +1,35 @@
 "use client";
 
-import React, { useState, useRef, useEffect } from "react";
+import React, {  useEffect } from "react";
 
 const Navbar = () => {
-  const [isNavbarActive, setIsNavbarActive] = useState(false);
-  const [isHeaderSticky, setIsHeaderSticky] = useState(false);
-  const [isSearchActive, setIsSearchActive] = useState(false);
-
-  const headerRef = useRef(null);
-
-  // Scroll event to handle sticky header
   useEffect(() => {
+    const header = document.querySelector("[data-header]");
+    const backTopBtn = document.querySelector("[data-back-top-btn]");
+
     const handleScroll = () => {
-      setIsHeaderSticky(window.scrollY >= 100);
+      if (window.scrollY >= 100) {
+        header.classList.add("active");
+        backTopBtn.classList.add("active");
+      } else {
+        header.classList.remove("active");
+        backTopBtn.classList.remove("active");
+      }
     };
+
+    // Attach the scroll event listener
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
-
-  // Toggle navbar visibility
-  const toggleNavbar = () => {
-    setIsNavbarActive((prev) => !prev);
-  };
-
-  // Toggle search bar visibility
-  const toggleSearch = () => {
-    setIsSearchActive((prev) => !prev);
-    document.body.classList.toggle("noScroll", !isSearchActive);
-  };
 
   return (
     <header
-      ref={headerRef}
-      className={`header ${isHeaderSticky ? "sticky" : ""}`}
+      
+      className={`header`}
       data-header=""
     >
       <div className="container">
@@ -42,7 +39,7 @@ const Navbar = () => {
           </a>
         </h1>
         <nav
-          className={`navbar ${isNavbarActive ? "active" : ""}`}
+          className={`navbar `}
           data-navbar=""
         >
           <ul className="navbar-list">
@@ -78,9 +75,8 @@ const Navbar = () => {
             className="search-btn"
             aria-label="Search"
             data-search-btn=""
-            onClick={toggleSearch}
+            
           >
-            {/* Add your search icon here */}
           </button>
           <a href="#R">
             <button className="btn btn-hover">Réservation</button>
@@ -89,7 +85,7 @@ const Navbar = () => {
             className="nav-toggle-btn"
             aria-label="Toggle Menu"
             data-menu-toggle-btn=""
-            onClick={toggleNavbar}
+            
           >
             <span className="line top" />
             <span className="line middle" />

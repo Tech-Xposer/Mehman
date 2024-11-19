@@ -2,7 +2,7 @@ import React from "react";
 
 const Form = () => {
   return (
-    <form action="" className="section section-divider white blog" id="R">
+    <form action="" className="section section-divider  blog" id="R">
       <p className="footer-list-title">Book a Table</p>
       <div className="input-wrapper">
         <input

@@ -2,7 +2,7 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <section className="section section-divider white blog" id="blog">
+    <section className="section section-divider blog" id="blog">
       <div className="container">
         <p className="section-subtitle">Latest Blog Posts</p>
         <h2 className="h2 section-title">

@@ -2,8 +2,24 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="section section-divider gray about" id="about">
+    <section className="section section-divider about" id="about">
       <div className="container">
+        <img
+          src="/assets/images/shape-1.png"
+          width="246"
+          height="412"
+          loading="lazy"
+          alt="shape"
+          className="shape shape-1 move-anim"
+        />
+        <img
+          src="/assets/images/shape-2.png"
+          width="343"
+          height="345"
+          loading="lazy"
+          alt="shape"
+          className="shape shape-2 move-anim"
+        />
         <div className="about-banner">
           <img
             src="/assets/images/about-banner.png"

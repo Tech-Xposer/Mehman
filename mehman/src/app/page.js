@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import BackToTop from "@/components/BackToTop";
 import Banner from "@/components/Banner";
 import Blog from "@/components/Blog";
 import Cta from "@/components/Cta";
@@ -22,7 +23,7 @@ export default function Home() {
       <Testinomials/>
       <Banner/>
       <Blog/>
-      
+      <BackToTop/>
 
     </article>
    </main>
