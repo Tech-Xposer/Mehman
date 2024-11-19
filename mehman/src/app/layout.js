@@ -1,5 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import "react-toastify/dist/ReactToastify.css";
+
 import Navbar from "@/components/Navbar";
 import SearchBox from "@/components/SearchBox";
 import Footer from "@/components/Footer";
@@ -7,6 +9,8 @@ import BackToTop from "@/components/BackToTop";
 import Form from "@/components/Form";
 import Script from "next/script";
 import Head from "next/head";
+import { MenuProvider } from "@/contexts/MenuContext";
+import ClientLayout from "./ClientLayout";
 
 export const metadata = {
   title: "Mehman - Best Indian Restaurant",
@@ -21,12 +25,16 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.svg" sizes="any" />
       </head>
       <body id="top">
+        <MenuProvider>
         <Navbar />
         <SearchBox />
+          <ClientLayout>
         {children}
+          </ClientLayout>
         {/* <Form /> */}
         <Footer />
         <BackToTop />
+        </MenuProvider>
       </body>
       <Script
         type="module"

@@ -4,18 +4,18 @@ import React, { useEffect, useState } from "react";
 
 const Hero = () => {
   const images = [
-    "/assets/images/grilled-bg.jpg",
-    "/assets/images/pexels-artosuraj-28909537.jpg",
     "/assets/images/pexels-catscoming-1907228.jpg",
-    "/assets/images/pexels-chanwalrus-941869.jpg",
-    "/assets/images/pexels-chanwalrus-958545.jpg",
+    "/assets/images/grilled-bg.jpg",
+    "/assets/images/pexels-minan1398-1482803.jpg",
+    "/assets/images/pexels-prabal-9609835.jpg",
+    // "/assets/images/pexels-chanwalrus-941869.jpg",
+    // "/assets/images/pexels-chanwalrus-958545.jpg",
     "/assets/images/pexels-kunal-lakhotia-781256899-28674660.jpg",
     "/assets/images/pexels-kunal-lakhotia-781256899-28674708.jpg",
     "/assets/images/pexels-madelynemery-954677.jpg",
-    "/assets/images/pexels-minan1398-1482803.jpg",
-    "/assets/images/pexels-paggiarofrancesco-1117862.jpg",
-    "/assets/images/pexels-prabal-9609835.jpg",
-    "/assets/images/pexels-sydney-troxell-223521-718742.jpg",
+    "/assets/images/pexels-artosuraj-28909537.jpg",
+    // "/assets/images/pexels-paggiarofrancesco-1117862.jpg",
+    // "/assets/images/pexels-sydney-troxell-223521-718742.jpg",
   ];
 
   const [currentImage, setCurrentImage] = useState(0); // Store index instead of image
@@ -39,11 +39,11 @@ const Hero = () => {
       id="home"
       style={{ backgroundImage: `url(${images[currentImage]})` }}
     >
-      <div className="container">
+      <div className="container ">
         <div className="hero-content">
           <p className="hero-subtitle">Manger, dormir et répéter</p>
           <h2 className="h1 hero-title">
-            Le poulet tandoori super délicieux en ville !
+            Le poulet tandoori super délicieux en ville!
           </h2>
           <p className="hero-text">
             La nourriture est toute substance consommée pour fournir un soutien

@@ -1,8 +1,10 @@
 "use client";
 
+import { useMenu } from "@/contexts/MenuContext";
 import React, {  useEffect, useState } from "react";
 
 const Navbar = () => {
+  const {menuOpen, toggleMenu} = useMenu();
   const [isActive, setIsActive ] = useState(false)
   useEffect(() => {
     const header = document.querySelector("[data-header]");
@@ -49,12 +51,12 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a href="#about" className="navbar-link" data-nav-link="">
+              <a  className="navbar-link" data-nav-link="" >
                 À propos de nous
               </a>
             </li>
             <li className="nav-item">
-              <a href="#food-menu" className="navbar-link" data-nav-link="">
+              <a className="navbar-link" data-nav-link="" onClick={()=>toggleMenu(true)}>
                 À Emporter
               </a>
             </li>
