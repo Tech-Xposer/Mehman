@@ -73,8 +73,10 @@
     font-family: "forum", cursive;
     color: #E4C590;
     text-align: center;
-    font-size: 7rem;
+    
 }
+
+
 --fontSize-headline-1: calc(2rem + 2.5vw);
   --section-padding: 60px;
 
@@ -617,7 +619,11 @@ body.active { overflow: hidden; }
   .hero {
     padding-block: 100px 40px; /* Adjust padding for smaller screens */
   }
-
+  /* .headline-1{
+    font-size: 5rem;
+    font-weight: bold;
+    
+  } */
   .hero-banner img.hero-img {
     width: 85%; /* Increase the burger image size for mobile */
     height: auto;
@@ -1553,6 +1559,15 @@ textarea.input-field {
 
   .footer-top .container { grid-template-columns: 1fr 1fr; }
 
+}
+.hero {
+  background-size: cover;
+  background-position: center;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.hero.fade {
+  opacity: 0; /* Fades out */
 }
 
 

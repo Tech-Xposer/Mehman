@@ -1,12 +1,12 @@
 "use client";
 
-import React, {  useEffect } from "react";
+import React, {  useEffect, useState } from "react";
 
 const Navbar = () => {
+  const [isActive, setIsActive ] = useState(false)
   useEffect(() => {
     const header = document.querySelector("[data-header]");
     const backTopBtn = document.querySelector("[data-back-top-btn]");
-
     const handleScroll = () => {
       if (window.scrollY >= 100) {
         header.classList.add("active");
@@ -39,7 +39,7 @@ const Navbar = () => {
           </a>
         </h1>
         <nav
-          className={`navbar `}
+        className={`navbar ${isActive ? "active" : ""}`}
           data-navbar=""
         >
           <ul className="navbar-list">
@@ -82,9 +82,10 @@ const Navbar = () => {
             <button className="btn btn-hover">Réservation</button>
           </a>
           <button
-            className="nav-toggle-btn"
+            className={`nav-toggle-btn ${isActive?"active":""}`}
             aria-label="Toggle Menu"
             data-menu-toggle-btn=""
+            onClick={()=>setIsActive(!isActive)}
             
           >
             <span className="line top" />
