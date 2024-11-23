@@ -1400,8 +1400,8 @@ body.active { overflow: hidden; }
 /* Form Section */
 #R {
   padding: 50px 20px;
-  background-color: #212121;
-  color: #333;
+  background-color: #0E0D0C;
+  color: white;
   text-align: center;
 }
 
@@ -1544,7 +1544,7 @@ textarea.input-field {
 .footer-list-title {
   position: relative;
   max-width: max-content;
-  color: var(--black);
+  color: var(--whitex);
   font-family: var(--ff-rubik);
   font-size: var(--fs-3);
   font-weight: var(--fw-600);

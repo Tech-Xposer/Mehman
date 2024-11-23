@@ -4,6 +4,7 @@ import Script from "next/script";
 import Head from "next/head";
 import { MenuProvider } from "@/contexts/MenuContext";
 import ClientLayout from "./ClientLayout";
+import { ToastContainer } from "react-toastify";
 
 export const metadata = {
   title: "Mehman - Best Indian Restaurant",
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
         {children}
           </ClientLayout>
         </MenuProvider>
+        <ToastContainer/>
       </body>
       <Script
         type="module"
