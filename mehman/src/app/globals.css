@@ -614,11 +614,7 @@ body.active { overflow: hidden; }
   transition: var(--transition-3);
   z-index: 1;
 }
-.hero .container{
-  position: absolute;
-  top:20%;
-  left:10%;
-}
+
 .hero .slider-item.active {
   opacity: 1;
   visibility: visible;
@@ -1900,7 +1896,11 @@ textarea.input-field {
  */
 
 @media (min-width: 992px) {
-
+  .hero .container{
+    position: absolute;
+    top:20%;
+    left:10%;
+  }
   /**
    * CUSTOM PROPERTY
    */

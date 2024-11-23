@@ -103,7 +103,7 @@ const Checkout = () => {
     .toFixed(2);
 
   return (
-    <div className="flex flex-col items-center justify-center p-5 text-white mt-[100px] md:h-screen w-full ">
+    <div className="flex flex-col items-center justify-center p-5 text-white pt-[100px] md:h-screen w-full bg-black">
       <h2 className="text-5xl mb-4 text-[#F4BE39] font-londrina">Checkout</h2>
 
       {orders.length ? (
@@ -169,11 +169,7 @@ const Checkout = () => {
           <div className="flex gap-4 items-center m-5">
             <div>
               {" "}
-              <img
-                src={"/assets/images/discount.gif"}
-                alt="takeaway"
-                className="w-[100px] h-8"
-              />
+            
               <span
                 onClick={() => setOrderType("takeaway")}
                 className={`cursor-pointer relative font-londrina ${

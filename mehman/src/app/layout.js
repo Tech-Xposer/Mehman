@@ -1,12 +1,5 @@
-import localFont from "next/font/local";
 import "./globals.css";
 import "react-toastify/dist/ReactToastify.css";
-
-import Navbar from "@/components/Navbar";
-import SearchBox from "@/components/SearchBox";
-import Footer from "@/components/Footer";
-import BackToTop from "@/components/BackToTop";
-import Form from "@/components/Form";
 import Script from "next/script";
 import Head from "next/head";
 import { MenuProvider } from "@/contexts/MenuContext";

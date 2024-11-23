@@ -1,9 +1,11 @@
 "use client";
 
 import { useMenu } from "@/contexts/MenuContext";
+import Link from "next/link";
 import React, {  useEffect, useState } from "react";
 
 const Navbar = () => {
+  
   const {menuOpen, toggleMenu} = useMenu();
   const [isActive, setIsActive ] = useState(false)
   useEffect(() => {
@@ -36,9 +38,9 @@ const Navbar = () => {
     >
       <div className="container">
         <h1>
-          <a href="#" className="logo">
+          <Link href="" className="logo">
             Mehman<span className="span">.</span>
-          </a>
+          </Link>
         </h1>
         <nav
         className={`navbar ${isActive ? "active" : ""}`}
@@ -46,9 +48,9 @@ const Navbar = () => {
         >
           <ul className="navbar-list">
             <li className="nav-item">
-              <a href="#home" className="navbar-link" data-nav-link="">
+              <Link href="/" className="navbar-link" data-nav-link="">
                 Accueil
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a  className="navbar-link" data-nav-link="" >
