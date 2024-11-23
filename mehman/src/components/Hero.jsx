@@ -1,6 +1,8 @@
 "use client";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
+import { useMenu } from "@/contexts/MenuContext";
+
 const images = [
   "/assets/images/pexels-catscoming-1907228.jpg",
   "/assets/images/grilled-bg.jpg",
@@ -17,19 +19,21 @@ const images = [
 ];
 
 const Hero = () => {
+  const { menuOpen, toggleMenu } = useMenu();
+
   const [currentSlidePos, setCurrentSlidePos] = useState(0);
   const heroSliderItems = [
     {
       subtitle: "Culture indienne enrichie",
       title: "Une expérience culinaire\nau cœur des traditions",
       text: "Plongez dans la richesse des saveurs indiennes, où chaque plat raconte une histoire de culture et d'héritage.",
-      imgSrc:  "/assets/images/pexels-catscoming-1907228.jpg",
+      imgSrc: "/assets/images/pexels-catscoming-1907228.jpg",
     },
     {
       subtitle: "Un festin épicé",
       title: "Un goût authentique de\nBiryani au poulet",
       text: "Savourez chaque bouchée de notre Biryani, une explosion de saveurs exquises qui éveilleront vos sens.",
-      imgSrc:"/assets/images/grilled-bg.jpg",
+      imgSrc: "/assets/images/grilled-bg.jpg",
     },
     {
       subtitle: "Traditionnel et hygiène",
@@ -41,15 +45,15 @@ const Hero = () => {
       subtitle: "Incroyable et délicieux",
       title: "Un voyage savoureux avec\nle nourriture traditionnel",
       text: "Découvrez la richesse de la cuisine traditionnelle, où chaque plat raconte une histoire de saveurs et de savoir-faire.",
-      imgSrc:  "/assets/images/pexels-prabal-9609835.jpg",
+      imgSrc: "/assets/images/pexels-prabal-9609835.jpg",
     },
 
     {
       subtitle: "Croustillant et épicé",
       title: "L'irrésistible\nSamosa traditionnel",
       text: "Savourez le mélange parfait de pommes de terre épicées et d'une pâte dorée et croustillante.",
-      imgSrc:"/assets/images/pexels-kunal-lakhotia-781256899-28674660.jpg",
-    }
+      imgSrc: "/assets/images/pexels-kunal-lakhotia-781256899-28674660.jpg",
+    },
   ];
 
   const slideNext = () => {
@@ -89,7 +93,21 @@ const Hero = () => {
                 className="img-cover"
               />
             </div>
-            <div className="container"><div className="hero-content"><p className="hero-subtitle">Manger, dormir et répéter</p><h2 className="h1 hero-title">Le poulet tandoori super délicieux en ville !</h2><p className="hero-text">La nourriture est toute substance consommée pour fournir un soutien nutritionnel à un organisme</p><button className="btn" id="reservation-btn">Réservez une table</button></div></div>
+            <div className="container">
+              <div className="hero-content">
+                <p className="hero-subtitle">Manger, dormir et répéter</p>
+                <h2 className="h1 hero-title">
+                  Le poulet tandoori super délicieux en ville !
+                </h2>
+                <p className="hero-text">
+                  La nourriture est toute substance consommée pour fournir un
+                  soutien nutritionnel à un organisme
+                </p>
+                <button className="btn" id="reservation-btn" onClick={toggleMenu}>
+                  Réservez une table
+                </button>
+              </div>
+            </div>
             {/* <p className="label-2 section-subtitle slider-reveal">
               {item.subtitle}
             </p>
@@ -102,7 +120,6 @@ const Hero = () => {
               ))}
             </h1>
             <p className="body-2 hero-text slider-reveal">{item.text}</p> */}
-           
           </li>
         ))}
       </ul>
@@ -120,7 +137,6 @@ const Hero = () => {
       >
         <ion-icon name="chevron-forward" />
       </button>
-    
     </section>
   );
 };

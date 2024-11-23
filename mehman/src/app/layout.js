@@ -26,14 +26,9 @@ export default function RootLayout({ children }) {
       </head>
       <body id="top">
         <MenuProvider>
-        <Navbar />
-        <SearchBox />
           <ClientLayout>
         {children}
           </ClientLayout>
-        {/* <Form /> */}
-        <Footer />
-        <BackToTop />
         </MenuProvider>
       </body>
       <Script

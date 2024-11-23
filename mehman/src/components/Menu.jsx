@@ -5,10 +5,12 @@ import { specialMenu } from "@/data/menu.js";
 import { useRouter } from "next/navigation.js";
 import CheckoutButton from "./CheckoutButton";
 import { toast } from "react-toastify";
+import { useMenu } from "@/contexts/MenuContext";
 
 
-const Menu = ({ toggleMenu }) => {
+const Menu = () => {
   const [cartItems, setCartItems] = useState([]);
+  const { menuOpen, toggleMenu } = useMenu();
 
   // Load cart items from localStorage when the component mounts
   useEffect(() => {
