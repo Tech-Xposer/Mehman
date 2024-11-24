@@ -53,6 +53,12 @@ const Hero = () => {
       text: "Savourez le mélange parfait de pommes de terre épicées et d'une pâte dorée et croustillante.",
       imgSrc: "/assets/images/4.png",
     },
+    {
+      subtitle: "Croustillant et épicé",
+      title: "L'irrésistible\nSamosa traditionnel",
+      text: "Savourez le mélange parfait de pommes de terre épicées et d'une pâte dorée et croustillante.",
+      imgSrc: "/assets/images/6.png",
+    },
   ];
 
   const slideNext = () => {
