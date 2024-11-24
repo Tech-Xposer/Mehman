@@ -26,7 +26,7 @@ const Hero = () => {
       subtitle: "Culture indienne enrichie",
       title: "Une expérience culinaire\nau cœur des traditions",
       text: "Plongez dans la richesse des saveurs indiennes, où chaque plat raconte une histoire de culture et d'héritage.",
-      imgSrc: "/assets/images/pexels-catscoming-1907228.jpg",
+      imgSrc: "/assets/images/1.png",
     },
     {
       subtitle: "Un festin épicé",
@@ -38,20 +38,20 @@ const Hero = () => {
       subtitle: "Traditionnel et hygiène",
       title: "Pour l'amour du\nChicken Tandoori",
       text: "Venez en famille et savourez le goût fumé et épicé de notre Chicken Tandoori, une vrai délice.",
-      imgSrc: "/assets/images/pexels-minan1398-1482803.jpg",
+      imgSrc: "/assets/images/2.png",
     },
     {
       subtitle: "Incroyable et délicieux",
       title: "Un voyage savoureux avec\nle nourriture traditionnel",
       text: "Découvrez la richesse de la cuisine traditionnelle, où chaque plat raconte une histoire de saveurs et de savoir-faire.",
-      imgSrc: "/assets/images/pexels-prabal-9609835.jpg",
+      imgSrc: "/assets/images/3.png",
     },
 
     {
       subtitle: "Croustillant et épicé",
       title: "L'irrésistible\nSamosa traditionnel",
       text: "Savourez le mélange parfait de pommes de terre épicées et d'une pâte dorée et croustillante.",
-      imgSrc: "/assets/images/pexels-kunal-lakhotia-781256899-28674660.jpg",
+      imgSrc: "/assets/images/4.png",
     },
   ];
 
