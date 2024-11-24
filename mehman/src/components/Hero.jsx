@@ -5,7 +5,7 @@ import { useMenu } from "@/contexts/MenuContext";
 
 const images = [
 
-  "/assets/images/grilled-bg.jpg",
+  "/assets/images/0.png",
   "/assets/images/1.png",
   "/assets/images/2.png",
   "/assets/images/3.png",
@@ -26,7 +26,7 @@ const Hero = () => {
       subtitle: "Culture indienne enrichie",
       title: "Une expérience culinaire\nau cœur des traditions",
       text: "Plongez dans la richesse des saveurs indiennes, où chaque plat raconte une histoire de culture et d'héritage.",
-      imgSrc: "/assets/images/grilled-bg.jpg",
+      imgSrc: "/assets/images/0.png",
     },
     {
       subtitle: "Un festin épicé",
