@@ -4,18 +4,17 @@ import React, { useEffect, useState } from "react";
 import { useMenu } from "@/contexts/MenuContext";
 
 const images = [
-  "/assets/images/pexels-catscoming-1907228.jpg",
+
   "/assets/images/grilled-bg.jpg",
-  "/assets/images/pexels-minan1398-1482803.jpg",
-  "/assets/images/pexels-prabal-9609835.jpg",
-  // "/assets/images/pexels-chanwalrus-941869.jpg",
-  // "/assets/images/pexels-chanwalrus-958545.jpg",
-  "/assets/images/pexels-kunal-lakhotia-781256899-28674660.jpg",
-  "/assets/images/pexels-kunal-lakhotia-781256899-28674708.jpg",
-  "/assets/images/pexels-madelynemery-954677.jpg",
-  "/assets/images/pexels-artosuraj-28909537.jpg",
-  // "/assets/images/pexels-paggiarofrancesco-1117862.jpg",
-  // "/assets/images/pexels-sydney-troxell-223521-718742.jpg",
+  "/assets/images/1.png",
+  "/assets/images/2.png",
+  "/assets/images/3.png",
+  "/assets/images/4.png",
+  "/assets/images/5.png",
+  "/assets/images/6.png",
+  "/assets/images/7.png",
+  "/assets/images/8.png",
+  "/assets/images/9.png",
 ];
 
 const Hero = () => {
