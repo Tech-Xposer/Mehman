@@ -26,13 +26,13 @@ const Hero = () => {
       subtitle: "Culture indienne enrichie",
       title: "Une expérience culinaire\nau cœur des traditions",
       text: "Plongez dans la richesse des saveurs indiennes, où chaque plat raconte une histoire de culture et d'héritage.",
-      imgSrc: "/assets/images/1.png",
+      imgSrc: "/assets/images/grilled-bg.jpg",
     },
     {
       subtitle: "Un festin épicé",
       title: "Un goût authentique de\nBiryani au poulet",
       text: "Savourez chaque bouchée de notre Biryani, une explosion de saveurs exquises qui éveilleront vos sens.",
-      imgSrc: "/assets/images/grilled-bg.jpg",
+      imgSrc: "/assets/images/1.png",
     },
     {
       subtitle: "Traditionnel et hygiène",
