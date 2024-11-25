@@ -26,7 +26,7 @@
   /**
    * colors
    */
-
+   --gold-crayola: hsl(38, 61%, 73%);
   --rich-black-fogra-29: hsl(210, 26%, 7%);
   --champagne-pink_20: hsla(23, 61%, 86%, 0.2);
   --independence_30: hsla(245, 17%, 29%, 0.3);
@@ -2132,3 +2132,4 @@ textarea.input-field {
   .footer-top .container { grid-template-columns: 1.4fr 1fr 1fr 1.6fr; }
 
 }
+

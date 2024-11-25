@@ -8,6 +8,7 @@ import Delivery from "@/components/Delivery";
 import Hero from "@/components/Hero";
 import Menu from "@/components/Menu";
 import Promo from "@/components/Promo";
+import ReservationForm from "@/components/reservation/ReservationForm";
 import StaticMenu from "@/components/StaticMenu";
 import Testinomials from "@/components/Testinomials";
 import { useMenu } from "@/contexts/MenuContext";
@@ -28,6 +29,7 @@ export default function Home() {
       <Testinomials/>
       <Banner/>
       <Blog/>
+      <ReservationForm/>
       <BackToTop/>
     {  menuOpen && <Menu/>}
 

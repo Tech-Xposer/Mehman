@@ -11,7 +11,7 @@ export default function ClientLayout({ children }) {
       <Navbar />
       <SearchBox />
       {children}
-      <Form/>
+      {/* <Form/> */}
       <Footer />
       <BackToTop />
     </>
