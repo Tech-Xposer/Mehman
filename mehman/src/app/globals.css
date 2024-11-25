@@ -494,6 +494,7 @@ body.active { overflow: hidden; }
 .navbar.active {
   height: 236px;
   visibility: visible;
+  background-color: #E4C590;
 }
 
 .navbar-list { margin-block: 10px; }

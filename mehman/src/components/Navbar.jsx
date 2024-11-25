@@ -58,8 +58,8 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="navbar-link" data-nav-link="" onClick={()=>toggleMenu(true)}>
-                À Emporter
+              <a className="navbar-link flex" data-nav-link="" onClick={()=>toggleMenu(true)}>
+                À Emporter - <span className="text-red-500">10% Surplace</span>
               </a>
             </li>
             <li className="nav-item">
