@@ -1,6 +1,9 @@
+"use client"
+import { useMenu } from "@/contexts/MenuContext";
 import React from "react";
 
 const StaticMenu = () => {
+  const { menuOpen, toggleMenu } = useMenu();
   return (
     <section className="section food-menu" id="food-menu">
       <div className="container">
@@ -42,7 +45,7 @@ const StaticMenu = () => {
                   className="w-100"
                 />
                 <div className="badge">-15%</div>
-                <button className="btn food-menu-btn">Order Now</button>
+                <button className="btn food-menu-btn" onClick={toggleMenu}>Order Now</button>
               </div>
               <div className="wrapper">
                 <p className="category">SHEAK KABAB</p>
@@ -76,7 +79,7 @@ const StaticMenu = () => {
                   className="w-100"
                 />
                 <div className="badge">-10%</div>
-                <button className="btn food-menu-btn">Order Now</button>
+                <button className="btn food-menu-btn"  onClick={toggleMenu}>Order Now</button>
               </div>
               <div className="wrapper">
                 <p className="category">GHOST MASALA</p>
@@ -110,7 +113,7 @@ const StaticMenu = () => {
                   className="w-100"
                 />
                 <div className="badge">-25%</div>
-                <button className="btn food-menu-btn">Order Now</button>
+                <button className="btn food-menu-btn" onClick={toggleMenu}>Order Now</button>
               </div>
               <div className="wrapper">
                 <p className="category">VEGETABLE KORMA</p>
@@ -144,7 +147,7 @@ const StaticMenu = () => {
                   className="w-100"
                 />
                 <div className="badge">-20%</div>
-                <button className="btn food-menu-btn">Order Now</button>
+                <button className="btn food-menu-btn" onClick={toggleMenu}>Order Now</button>
               </div>
               <div className="wrapper">
                 <p className="category">POULET OU AGNEAU</p>
@@ -178,7 +181,7 @@ const StaticMenu = () => {
                   className="w-100"
                 />
                 <div className="badge">-5%</div>
-                <button className="btn food-menu-btn">Order Now</button>
+                <button className="btn food-menu-btn" onClick={toggleMenu}>Order Now</button>
               </div>
               <div className="wrapper">
                 <p className="category">BUTTER CHICKEN</p>
@@ -212,7 +215,7 @@ const StaticMenu = () => {
                   className="w-100"
                 />
                 <div className="badge">-15%</div>
-                <button className="btn food-menu-btn">Order Now</button>
+                <button className="btn food-menu-btn" onClick={toggleMenu}>Order Now</button>
               </div>
               <div className="wrapper">
                 <p className="category">Chicken</p>

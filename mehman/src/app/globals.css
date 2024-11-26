@@ -13,6 +13,9 @@
  * copyright 2022 codewithsadee
  */
 
+ html {
+  scroll-behavior: smooth;
+}
 
 
 
@@ -1399,11 +1402,11 @@ body.active { overflow: hidden; }
 
 
 /* Form Section */
-#R {
+#reservation {
   padding: 50px 20px;
   background-color: #0E0D0C;
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 /* Heading */

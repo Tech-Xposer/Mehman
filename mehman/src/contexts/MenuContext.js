@@ -15,6 +15,7 @@ export const MenuProvider = ({ children }) => {
 
   // Toggle the menu state
   const toggleMenu = () => {
+    console.log("Clicked!")
     setMenuOpen((prev) => !prev);
     // Disable body scroll when menu is open
     document.body.style.overflowY = menuOpen ? "auto" : "hidden";

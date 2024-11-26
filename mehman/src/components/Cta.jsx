@@ -1,6 +1,9 @@
+"use client"
+import { useMenu } from "@/contexts/MenuContext";
 import React from "react";
 
 const Cta = () => {
+  const { menuOpen, toggleMenu } = useMenu()
   return (
     <section
       className="section section-divider  cta"
@@ -15,7 +18,7 @@ const Cta = () => {
           <p className="section-text">
           Ce restaurant est idéal pour les amis et les familles, vous pouvez le visiter et être rempli de joie et de prospérité, Mehman a toujours respecté ses clients et maintenu une bonne hygiène pour eux.
           </p>
-          <button className="btn btn-hover">Commandez maintenant</button>
+          <button className="btn btn-hover"  onClick={toggleMenu}>Commandez maintenant</button>
         </div>
         <figure className="cta-banner">
           <img

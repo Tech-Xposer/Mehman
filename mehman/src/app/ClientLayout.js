@@ -3,6 +3,7 @@ import BackToTop from "@/components/BackToTop";
 import Footer from "@/components/Footer";
 import Form from "@/components/Form";
 import Navbar from "@/components/Navbar";
+
 import SearchBox from "@/components/SearchBox";
 import { usePathname } from "next/navigation";
 export default function ClientLayout({ children }) {
@@ -11,7 +12,6 @@ export default function ClientLayout({ children }) {
       <Navbar />
       <SearchBox />
       {children}
-      {/* <Form/> */}
       <Footer />
       <BackToTop />
     </>

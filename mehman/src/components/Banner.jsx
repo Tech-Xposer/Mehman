@@ -1,6 +1,9 @@
+import { useMenu } from "@/contexts/MenuContext";
 import React from "react";
 
 const Banner = () => {
+  const { menuOpen, toggleMenu } = useMenu();
+
   return (
     <section className="section section-divider gray banner">
       <div className="container">
@@ -21,7 +24,7 @@ const Banner = () => {
                   Discount For Delicious Tasty Burgers!
                 </h3>
                 <p className="banner-text">Sale off 50% only this week</p>
-                <button className="btn">Order Now</button>
+                <button className="btn"  onClick={toggleMenu}>Order Now</button>
               </div>
             </div>
           </li>
@@ -38,7 +41,7 @@ const Banner = () => {
               <div className="banner-item-content">
                 <h3 className="banner-title">Delicious Pizza</h3>
                 <p className="banner-text">50% off Now</p>
-                <button className="btn">Order Now</button>
+                <button className="btn" onClick={toggleMenu}>Order Now</button>
               </div>
             </div>
           </li>
@@ -55,7 +58,7 @@ const Banner = () => {
               <div className="banner-item-content">
                 <h3 className="banner-title">American Burgers</h3>
                 <p className="banner-text">50% off Now</p>
-                <button className="btn">Order Now</button>
+                <button className="btn" onClick={toggleMenu}>Order Now</button>
               </div>
             </div>
           </li>
@@ -72,7 +75,7 @@ const Banner = () => {
               <div className="banner-item-content">
                 <h3 className="banner-title">Tasty Buzzed Pizza</h3>
                 <p className="banner-text">Sale off 50% only this week</p>
-                <button className="btn">Order Now</button>
+                <button className="btn" onClick={toggleMenu}>Order Now</button>
               </div>
             </div>
           </li>

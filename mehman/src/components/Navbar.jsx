@@ -82,8 +82,8 @@ const Navbar = () => {
             
           >
           </button>
-          <a href="#R">
-            <button className="btn btn-hover">Réservation</button>
+          <a href="#reservation" className="btn btn-hover">
+            Réservation
           </a>
           <button
             className={`nav-toggle-btn ${isActive?"active":""}`}

@@ -1,6 +1,10 @@
+"use client"
+import { useMenu } from "@/contexts/MenuContext";
 import React from "react";
 
 const About = () => {
+  const { menuOpen, toggleMenu } = useMenu();
+
   return (
     <section className="section section-divider about" id="about">
       <div className="container">
@@ -71,7 +75,9 @@ const About = () => {
               </span>
             </li>
           </ul>
-          <button className="btn btn-hover">Commander maintenant</button>
+          <button className="btn btn-hover" onClick={toggleMenu}>
+            Commander maintenant
+          </button>
         </div>
       </div>
     </section>

@@ -1,7 +1,10 @@
 "use client"
+import { useMenu } from "@/contexts/MenuContext";
 import React, { useEffect, useRef, useState } from "react";
 
 const Delivery = () => {
+  const { menuOpen, toggleMenu } = useMenu();
+
   const deliveryBoyRef = useRef(null); // Ref for the delivery boy image
   const [deliveryBoyMove, setDeliveryBoyMove] = useState(-80); // State to track horizontal movement
   const lastScrollPos = useRef(0); // Ref to store the last scroll position
@@ -46,7 +49,7 @@ const Delivery = () => {
             had fled south from Kaifeng during the Jurchen invasion of the 1120s,
             while it is also known that many restaurants were run by families.
           </p>
-          <button className="btn btn-hover">Order Now</button>
+          <button className="btn btn-hover"  onClick={toggleMenu}>Order Now</button>
         </div>
         <figure className="delivery-banner">
           <img
