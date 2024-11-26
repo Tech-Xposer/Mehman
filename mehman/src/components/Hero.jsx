@@ -102,7 +102,7 @@ const Hero = () => {
               <div className="hero-content">
                 <p className="hero-subtitle">Manger, dormir et répéter</p>
                 <h2 className="h1 hero-title">
-                La destination incontournable pour une expérience culinaire inoubliable !
+                Nourriture super délicieuse en ville
                 </h2>
                 <p className="hero-text">
                   La nourriture est toute substance consommée pour fournir un
