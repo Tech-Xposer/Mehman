@@ -17,16 +17,16 @@ const StaticMenu = () => {
             <button className="filter-btn  active">All</button>
           </li>
           <li>
-            <button className="filter-btn">Pizza</button>
+            <button className="filter-btn">Murghi tikka</button>
           </li>
           <li>
-            <button className="filter-btn">Burger</button>
+            <button className="filter-btn">Palak Paneer</button>
           </li>
           <li>
-            <button className="filter-btn">Drinks</button>
+            <button className="filter-btn">Naan au fromage</button>
           </li>
           <li>
-            <button className="filter-btn">Sandwich</button>
+            <button className="filter-btn">Butter Chicken</button>
           </li>
         </ul>
         <ul className="food-menu-list">
@@ -45,7 +45,7 @@ const StaticMenu = () => {
                 <button className="btn food-menu-btn">Order Now</button>
               </div>
               <div className="wrapper">
-                <p className="category">Chicken</p>
+                <p className="category">SHEAK KABAB</p>
                 <div className="rating-wrapper">
                   <ion-icon name="star" />
                   <ion-icon name="star" />
@@ -54,7 +54,7 @@ const StaticMenu = () => {
                   <ion-icon name="star" />
                 </div>
               </div>
-              <h3 className="h3 card-title">Fried Chicken Unlimited</h3>
+              <h3 className="h3 card-title">MURGHI MUGHLAI</h3>
               <div className="price-wrapper">
                 <p className="price-text">Price:</p>
                 <data className="price">$49.00</data>
@@ -79,7 +79,7 @@ const StaticMenu = () => {
                 <button className="btn food-menu-btn">Order Now</button>
               </div>
               <div className="wrapper">
-                <p className="category">Noddles</p>
+                <p className="category">GHOST MASALA</p>
                 <div className="rating-wrapper">
                   <ion-icon name="star" />
                   <ion-icon name="star" />
@@ -88,7 +88,7 @@ const StaticMenu = () => {
                   <ion-icon name="star" />
                 </div>
               </div>
-              <h3 className="h3 card-title">Burger King Whopper</h3>
+              <h3 className="h3 card-title">MASHLI MASALA</h3>
               <div className="price-wrapper">
                 <p className="price-text">Price:</p>
                 <data className="price" value={29.0}>
@@ -113,7 +113,7 @@ const StaticMenu = () => {
                 <button className="btn food-menu-btn">Order Now</button>
               </div>
               <div className="wrapper">
-                <p className="category">Pizzas</p>
+                <p className="category">VEGETABLE KORMA</p>
                 <div className="rating-wrapper">
                   <ion-icon name="star" />
                   <ion-icon name="star" />
@@ -122,7 +122,7 @@ const StaticMenu = () => {
                   <ion-icon name="star" />
                 </div>
               </div>
-              <h3 className="h3 card-title">White Castle Pizzas</h3>
+              <h3 className="h3 card-title">GHOST BIRYANI</h3>
               <div className="price-wrapper">
                 <p className="price-text">Price:</p>
                 <data className="price" value={49.0}>
@@ -147,7 +147,7 @@ const StaticMenu = () => {
                 <button className="btn food-menu-btn">Order Now</button>
               </div>
               <div className="wrapper">
-                <p className="category">Burrito</p>
+                <p className="category">POULET OU AGNEAU</p>
                 <div className="rating-wrapper">
                   <ion-icon name="star" />
                   <ion-icon name="star" />
@@ -181,7 +181,7 @@ const StaticMenu = () => {
                 <button className="btn food-menu-btn">Order Now</button>
               </div>
               <div className="wrapper">
-                <p className="category">Nuggets</p>
+                <p className="category">BUTTER CHICKEN</p>
                 <div className="rating-wrapper">
                   <ion-icon name="star" />
                   <ion-icon name="star" />

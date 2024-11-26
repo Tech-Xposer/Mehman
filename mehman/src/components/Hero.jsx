@@ -102,14 +102,14 @@ const Hero = () => {
               <div className="hero-content">
                 <p className="hero-subtitle">Manger, dormir et répéter</p>
                 <h2 className="h1 hero-title">
-                  Le poulet tandoori super délicieux en ville !
+                La destination incontournable pour une expérience culinaire inoubliable !
                 </h2>
                 <p className="hero-text">
                   La nourriture est toute substance consommée pour fournir un
                   soutien nutritionnel à un organisme
                 </p>
                 <button className="btn" id="reservation-btn" onClick={toggleMenu}>
-                  Réservez une table
+                Commandez vos plats
                 </button>
               </div>
             </div>
