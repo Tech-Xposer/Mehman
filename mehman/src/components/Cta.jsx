@@ -9,16 +9,13 @@ const Cta = () => {
       <div className="container">
         <div className="cta-content">
           <h2 className="h2 section-title">
-            The Mehman Have Excellent Of
-            <span className="span">Quality Burgers!</span>
+          Les Mehman ont une excellente qualite
+            <span className="span">Quality mouton!</span>
           </h2>
           <p className="section-text">
-            The restaurants in Hangzhou also catered to many northern Chinese
-            who had fled south from Kaifeng during the Jurchen invasion of the
-            1120s, while it is also known that many restaurants were run by
-            families.
+          Ce restaurant est idéal pour les amis et les familles, vous pouvez le visiter et être rempli de joie et de prospérité, Mehman a toujours respecté ses clients et maintenu une bonne hygiène pour eux.
           </p>
-          <button className="btn btn-hover">Order Now</button>
+          <button className="btn btn-hover">Commandez maintenant</button>
         </div>
         <figure className="cta-banner">
           <img
