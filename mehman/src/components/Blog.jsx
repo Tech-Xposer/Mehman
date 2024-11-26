@@ -4,13 +4,12 @@ const Blog = () => {
   return (
     <section className="section section-divider blog" id="blog">
       <div className="container">
-        <p className="section-subtitle">Latest Blog Posts</p>
+        <p className="section-subtitle">Événements organisés au restaurant</p>
         <h2 className="h2 section-title">
-          This Is All About <span className="span">Foods</span>
+        Il s'agit de tout <span className="span">Aliments</span>
         </h2>
         <p className="section-text">
-          Food is any substance consumed to provide nutritional support for an
-          organism.
+        La nourriture est toute substance consommée pour fournir un soutien nutritionnel à un organisme.
         </p>
         <ul className="blog-list">
           <li>
@@ -24,32 +23,31 @@ const Blog = () => {
                   alt="What Do You Think About Cheese Pizza Recipes?"
                   className="w-100"
                 />
-                <div className="badge">Pizza</div>
+                <div className="badge">.....</div>
               </div>
               <div className="card-content">
                 <div className="card-meta-wrapper">
                   <a href="#" className="card-meta-link">
                     <ion-icon name="calendar-outline" />
                     <time className="meta-info" dateTime="2022-01-01">
-                      Jan 01 2022
+                      ......
                     </time>
                   </a>
                   <a href="#" className="card-meta-link">
                     <ion-icon name="person-outline" />
-                    <p className="meta-info">Jonathan Smith</p>
+                    <p className="meta-info">Menu Exclusif</p>
                   </a>
                 </div>
                 <h3 className="h3">
                   <a href="#" className="card-title">
-                    What Do You Think About Cheese Pizza Recipes?
+                  Que pensez-vous des recettes de paneer au fromage ?
                   </a>
                 </h3>
                 <p className="card-text">
-                  Financial experts support or help you to to find out which way
-                  you can raise your funds more...
+                N'hésitez pas à nous contacter et à nous faire part de vos commentaires concernant un plat ou une hygiène
                 </p>
                 <a href="#" className="btn-link">
-                  <span>Read More</span>
+                  <span>En savoir plus</span>
                   <ion-icon name="arrow-forward" aria-hidden="true" />
                 </a>
               </div>
@@ -66,32 +64,31 @@ const Blog = () => {
                   alt="Making Chicken Strips With New Delicious Ingridents."
                   className="w-100"
                 />
-                <div className="badge">Burger</div>
+                <div className="badge">....</div>
               </div>
               <div className="card-content">
                 <div className="card-meta-wrapper">
                   <a href="#" className="card-meta-link">
                     <ion-icon name="calendar-outline" />
                     <time className="meta-info" dateTime="2022-01-01">
-                      Jan 01 2022
+                      ......
                     </time>
                   </a>
                   <a href="#" className="card-meta-link">
                     <ion-icon name="person-outline" />
-                    <p className="meta-info">Jonathan Smith</p>
+                    <p className="meta-info">Occasions Spéciales</p>
                   </a>
                 </div>
                 <h3 className="h3">
                   <a href="#" className="card-title">
-                    Making Chicken Strips With New Delicious Ingridents.
+                  Préparez des lanières de poulet avec de nouveaux ingrédients délicieux.
                   </a>
                 </h3>
                 <p className="card-text">
-                  Financial experts support or help you to to find out which way
-                  you can raise your funds more...
+                Mehman offre une expérience gastronomique incomparable, où chaque plat est une œuvre d'art pleine de saveurs exquises
                 </p>
                 <a href="#" className="btn-link">
-                  <span>Read More</span>
+                  <span>En savoir plus</span>
                   <ion-icon name="arrow-forward" aria-hidden="true" />
                 </a>
               </div>
@@ -108,32 +105,31 @@ const Blog = () => {
                   alt="Innovative Hot Chessyraw Pasta Make Creator Fact."
                   className="w-100"
                 />
-                <div className="badge">Chicken</div>
+                <div className="badge">.....</div>
               </div>
               <div className="card-content">
                 <div className="card-meta-wrapper">
                   <a href="#" className="card-meta-link">
                     <ion-icon name="calendar-outline" />
                     <time className="meta-info" dateTime="2022-01-01">
-                      Jan 01 2022
+                      ......
                     </time>
                   </a>
                   <a href="#" className="card-meta-link">
                     <ion-icon name="person-outline" />
-                    <p className="meta-info">Jonathan Smith</p>
+                    <p className="meta-info">Expérience Culinaire</p>
                   </a>
                 </div>
                 <h3 className="h3">
                   <a href="#" className="card-title">
-                    Innovative Hot Chessyraw Pasta Make Creator Fact.
+                  Poisson Chessyraw chaud innovant Make Creator Fact.
                   </a>
                 </h3>
                 <p className="card-text">
-                  Financial experts support or help you to to find out which way
-                  you can raise your funds more...
+                La qualité des plats de Mehman dépasse toutes les attentes, chaque bouchée est un pur délice.
                 </p>
                 <a href="#" className="btn-link">
-                  <span>Read More</span>
+                  <span>En savoir plus</span>
                   <ion-icon name="arrow-forward" aria-hidden="true" />
                 </a>
               </div>

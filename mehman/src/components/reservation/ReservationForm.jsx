@@ -13,8 +13,8 @@ const ReservationForm = () => {
             <h2 className="headline-1 text-center">Réservation en ligne</h2>
             <p className="form-text text-center">
               Demande de réservation{" "}
-              <a href="tel:0146662579" className="link">
-                01 46 66 25 79
+              <a href="tel:0698356157" className="link">
+              06 98 35 61 57
               </a>{" "}
               ou remplissez le formulaire de commande
             </p>
@@ -114,15 +114,15 @@ const ReservationForm = () => {
             <h2 className="headline-1 text-center">Contactez-nous</h2>
             <p className="contact-label">Demande de réservation</p>
             <a
-              href="tel:0146662579"
+              href="tel:0698356157"
               className="body-1 contact-number hover-underline"
             >
-              -  01 46 66 25 79 
+              -  06 98 35 61 57 
             </a>
             <div className="separator" />
             <p className="contact-label">Address</p>
             <address className="body-4">
-              21 Boulevard Jean-Jaurès 94260 FRESNES <br />
+            3 avenue Louis georgeon 94230 Cachan  <br />
               France
             </address>
             <p className="menu-text text-center">

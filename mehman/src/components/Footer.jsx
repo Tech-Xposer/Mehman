@@ -15,8 +15,7 @@ const Footer = () => {
               Mehman<span className="span">.</span>
             </a>
             <p className="footer-text">
-              Financial experts support or help you to to find out which way you
-              can raise your funds more.
+            Mehman ne se contente pas de servir des repas, ils créent des souvenirs inoubliables autour de chaque plat
             </p>
             <ul className="social-list">
               <li>
@@ -46,14 +45,14 @@ const Footer = () => {
               <p className="footer-list-title">Contact Info</p>
             </li>
             <li>
-              <p className="footer-list-item">+1 (062) 109-9222</p>
+              <p className="footer-list-item">06 98 35 61 57</p>
             </li>
             <li>
-              <p className="footer-list-item">Info@YourGmail24.com</p>
+              <p className="footer-list-item">restaurantmilane@Gmail.com</p>
             </li>
             <li>
               <address className="footer-list-item">
-                153 Williamson Plaza, Maggieberg, MT 09514
+              3 avenue Louis georgeon 94230 Cachan 
               </address>
             </li>
           </ul>
@@ -62,19 +61,13 @@ const Footer = () => {
               <p className="footer-list-title">Opening Hours</p>
             </li>
             <li>
-              <p className="footer-list-item">Monday-Friday: 08:00-22:00</p>
-            </li>
-            <li>
-              <p className="footer-list-item">Tuesday 4PM: Till Mid Night</p>
-            </li>
-            <li>
-              <p className="footer-list-item">Saturday: 10:00-16:00</p>
+              <p className="footer-list-item">Horaires 12:00 à 14:30 de 19:00 à 23:00</p>
             </li>
           </ul>
           <div className="footer-bottom">
             <div className="container">
               <p className="copyright-text">
-                © 2022{" "}
+                © 2024{" "}
                 <a
                   href="https://websolution-gules.vercel.app/"
                   className="copyright-link"

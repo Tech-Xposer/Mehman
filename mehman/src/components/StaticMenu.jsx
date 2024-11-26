@@ -116,7 +116,7 @@ const StaticMenu = () => {
                 <button className="btn food-menu-btn" onClick={toggleMenu}>Order Now</button>
               </div>
               <div className="wrapper">
-                <p className="category">VEGETABLE KORMA</p>
+                <p className="category">Tandoori Chicken</p>
                 <div className="rating-wrapper">
                   <ion-icon name="star" />
                   <ion-icon name="star" />
@@ -184,7 +184,7 @@ const StaticMenu = () => {
                 <button className="btn food-menu-btn" onClick={toggleMenu}>Order Now</button>
               </div>
               <div className="wrapper">
-                <p className="category">BUTTER CHICKEN</p>
+                <p className="category">FRITES DE POISSON</p>
                 <div className="rating-wrapper">
                   <ion-icon name="star" />
                   <ion-icon name="star" />
@@ -218,7 +218,7 @@ const StaticMenu = () => {
                 <button className="btn food-menu-btn" onClick={toggleMenu}>Order Now</button>
               </div>
               <div className="wrapper">
-                <p className="category">Chicken</p>
+                <p className="category">BUTTER CHICKEN</p>
                 <div className="rating-wrapper">
                   <ion-icon name="star" />
                   <ion-icon name="star" />
@@ -227,7 +227,7 @@ const StaticMenu = () => {
                   <ion-icon name="star" />
                 </div>
               </div>
-              <h3 className="h3 card-title">Wendy&apos;s Chicken</h3>
+              <h3 className="h3 card-title">Wendy&apos;s FRITES DE POISSON</h3>
               <div className="price-wrapper">
                 <p className="price-text">Price:</p>
                 <data className="price" value={49.0}>

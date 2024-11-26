@@ -19,12 +19,12 @@ const Banner = () => {
                 className="banner-img"
               />
               <div className="banner-item-content">
-                <p className="banner-subtitle">50% Off Now!</p>
+                <p className="banner-subtitle">Offres exceptionnelles</p>
                 <h3 className="banner-title">
-                  Discount For Delicious Tasty Burgers!
+                Remise de 10% sur les plats à emporter
                 </h3>
-                <p className="banner-text">Sale off 50% only this week</p>
-                <button className="btn"  onClick={toggleMenu}>Order Now</button>
+                <p className="banner-text">nourriture avec boisson</p>
+                <button className="btn"  onClick={toggleMenu}>Commandez maintenant</button>
               </div>
             </div>
           </li>
@@ -39,9 +39,9 @@ const Banner = () => {
                 className="banner-img"
               />
               <div className="banner-item-content">
-                <h3 className="banner-title">Delicious Pizza</h3>
-                <p className="banner-text">50% off Now</p>
-                <button className="btn" onClick={toggleMenu}>Order Now</button>
+                <h3 className="banner-title">Poulet délicieux</h3>
+                <p className="banner-text">L'eau à la bouche</p>
+                <button className="btn" onClick={toggleMenu}>Commandez maintenant</button>
               </div>
             </div>
           </li>
@@ -56,9 +56,9 @@ const Banner = () => {
                 className="banner-img"
               />
               <div className="banner-item-content">
-                <h3 className="banner-title">American Burgers</h3>
-                <p className="banner-text">50% off Now</p>
-                <button className="btn" onClick={toggleMenu}>Order Now</button>
+                <h3 className="banner-title">La meilleure cuisine indienne</h3>
+                <p className="banner-text">En France</p>
+                <button className="btn" onClick={toggleMenu}>Commandez maintenant</button>
               </div>
             </div>
           </li>
@@ -73,9 +73,9 @@ const Banner = () => {
                 className="banner-img"
               />
               <div className="banner-item-content">
-                <h3 className="banner-title">Tasty Buzzed Pizza</h3>
-                <p className="banner-text">Sale off 50% only this week</p>
-                <button className="btn" onClick={toggleMenu}>Order Now</button>
+                <h3 className="banner-title">Poulet tandoori savoureux</h3>
+                <p className="banner-text">Avec plus de croquant</p>
+                <button className="btn" onClick={toggleMenu}>Commandez maintenant</button>
               </div>
             </div>
           </li>
