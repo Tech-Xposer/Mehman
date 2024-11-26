@@ -13,7 +13,7 @@ const Delivery = () => {
 
       const deliveryBoyTopPos = deliveryBoy.getBoundingClientRect().top;
 
-      if (deliveryBoyTopPos < 400 && deliveryBoyTopPos > -350) {
+      if (deliveryBoyTopPos < 300 && deliveryBoyTopPos > -300) {
         const activeScrollPos = window.scrollY;
 
         if (lastScrollPos.current < activeScrollPos) {
