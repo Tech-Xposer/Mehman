@@ -681,7 +681,9 @@ body.active { overflow: hidden; }
   color: var(--champagne-pink);
   max-width: 12ch;
   margin-inline: auto;
+  font-size: 1.5rem; /* Adjust this value to make the text smaller */
 }
+
 
 .hero-text {
   color: var(--desert-sand);

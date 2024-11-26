@@ -6,18 +6,17 @@ const Cta = () => {
       className="section section-divider  cta"
       style={{ backgroundImage: 'url("/assets/images/food-bg.avif")' }}
     >
-
-<div className="container">
-  <div className="cta-content">
-    <h2 className="h2 section-title">
-      Chez <span className="span">Mehman</span>, savourez 
-      les poissons les plus délicieux !
-    </h2>
-    <p className="section-text">
-      Situé au cœur de la France, Mehman vous invite à découvrir des saveurs authentiques 
-      et raffinées. Spécialisé dans les plats de poisson exquis, notre restaurant marie 
-      tradition et fraîcheur pour une expérience culinaire inoubliable.
-    </p>
+      <div className="container">
+        <div className="cta-content">
+          <h2 className="h2 section-title">
+          Chez Mehman, savourez les poissons les 
+            <span className="span">plus délicieux !</span>
+          </h2>
+          <p className="section-text">
+          Situé au cœur de la France, Mehman vous invite à découvrir des saveurs authentiques 
+          et raffinées. Spécialisé dans les plats de poisson exquis, notre restaurant marie 
+          tradition et fraîcheur pour une expérience culinaire inoubliable.
+          </p>
           <button className="btn btn-hover">Order Now</button>
         </div>
         <figure className="cta-banner">

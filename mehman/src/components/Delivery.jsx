@@ -39,12 +39,12 @@ const Delivery = () => {
       <div className="container">
         <div className="delivery-content">
           <h2 className="h2 section-title">
-            A Moments Of Delivered On <span className="span">Right Time</span> &amp; Place
+          Des moments savoureux livrés<span className="span">au bon moment et</span> &amp; au bon endroit
           </h2>
           <p className="section-text">
-            The restaurants in Hangzhou also catered to many northern Chinese who
-            had fled south from Kaifeng during the Jurchen invasion of the 1120s,
-            while it is also known that many restaurants were run by families.
+            Chez Mehman, nous nous engageons à offrir des repas exquis préparés avec soin et 
+            servis dans un cadre chaleureux. Notre passion pour l'excellence culinaire s'inspire 
+            d'une riche tradition, où chaque plat raconte une histoire et chaque instant est mémorable.
           </p>
           <button className="btn btn-hover">Order Now</button>
         </div>
