@@ -39,12 +39,12 @@ const Delivery = () => {
       <div className="container">
         <div className="delivery-content">
           <h2 className="h2 section-title">
-          Des moments savoureux livrés<span className="span">au bon moment et</span> &amp; au bon endroit
+          Un moment de livré sur <span className="span">Le bon moment</span> &amp; Lieu
           </h2>
           <p className="section-text">
-            Chez Mehman, nous nous engageons à offrir des repas exquis préparés avec soin et 
-            servis dans un cadre chaleureux. Notre passion pour l'excellence culinaire s'inspire 
-            d'une riche tradition, où chaque plat raconte une histoire et chaque instant est mémorable.
+          Chez Mehman, nous nous engageons à offrir des repas exquis préparés avec soin et 
+      servis dans un cadre chaleureux. Notre passion pour l'excellence culinaire s'inspire 
+      d'une riche tradition, où chaque plat raconte une histoire et chaque instant est mémorable.
           </p>
           <button className="btn btn-hover">Order Now</button>
         </div>

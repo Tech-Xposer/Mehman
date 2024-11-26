@@ -9,13 +9,13 @@ const Cta = () => {
       <div className="container">
         <div className="cta-content">
           <h2 className="h2 section-title">
-          Chez Mehman, savourez les poissons les 
-            <span className="span">plus délicieux !</span>
+          Les Mehman ont une excellente qualité
+            <span className="span">Nourriture de qualité !</span>
           </h2>
           <p className="section-text">
-          Situé au cœur de la France, Mehman vous invite à découvrir des saveurs authentiques 
-          et raffinées. Spécialisé dans les plats de poisson exquis, notre restaurant marie 
-          tradition et fraîcheur pour une expérience culinaire inoubliable.
+          Situé au cœur de la France, Mehman propose une expérience culinaire unique
+      mêlant tradition et innovation. Inspiré par une riche histoire gastronomique, 
+      notre restaurant incarne l'art de recevoir avec des plats savoureux préparés avec soin.
           </p>
           <button className="btn btn-hover">Order Now</button>
         </div>
