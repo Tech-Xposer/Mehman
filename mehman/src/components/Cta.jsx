@@ -10,7 +10,7 @@ const Cta = () => {
         <div className="cta-content">
           <h2 className="h2 section-title">
           Les Mehman ont une excellente qualite
-            <span className="span">Quality mouton!</span>
+            <span className="span">Quality Panir!</span>
           </h2>
           <p className="section-text">
           Ce restaurant est idéal pour les amis et les familles, vous pouvez le visiter et être rempli de joie et de prospérité, Mehman a toujours respecté ses clients et maintenu une bonne hygiène pour eux.
