@@ -34,20 +34,20 @@ const Delivery = () => {
     };
   }, []);
 
-  
-        <section className="section section-divider gray delivery">
-  <div className="container">
-    <div className="delivery-content">
-      <h2 className="h2 section-title">
-        Un moment de livre sur <span className="span">Le bon moment</span> &amp; Lieu
-      </h2>
-      <p className="section-text">
-        Chez Mehman, nous nous engageons &agrave; offrir des repas exquis pr&eacute;par&eacute;s avec soin et servis dans un cadre chaleureux. Notre passion pour l&rsquo;excellence culinaire s&rsquo;inspire d&rsquo;une riche tradition, o&ugrave; chaque plat raconte une histoire et chaque instant est m&eacute;morable.
-      </p>
-      <button className="btn btn-hover">Commandez maintenant</button>
-    </div>
-
-
+  return (
+    <section className="section section-divider gray delivery">
+      <div className="container">
+        <div className="delivery-content">
+          <h2 className="h2 section-title">
+            A Moments Of Delivered On <span className="span">Right Time</span> &amp; Place
+          </h2>
+          <p className="section-text">
+            The restaurants in Hangzhou also catered to many northern Chinese who
+            had fled south from Kaifeng during the Jurchen invasion of the 1120s,
+            while it is also known that many restaurants were run by families.
+          </p>
+          <button className="btn btn-hover">Order Now</button>
+        </div>
         <figure className="delivery-banner">
           <img
             src="/assets/images/delivery-banner-bg.png"
