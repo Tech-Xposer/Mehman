@@ -34,18 +34,20 @@ const Delivery = () => {
     };
   }, []);
 
-  return (
-<section className="section section-divider gray delivery">
+  
+        <section className="section section-divider gray delivery">
   <div className="container">
     <div className="delivery-content">
       <h2 className="h2 section-title">
         Un moment de livre sur <span className="span">Le bon moment</span> &amp; Lieu
       </h2>
       <p className="section-text">
-        Chez Mehman, nous nous engageons &agrave; offrir des repas exquis pr&eacute;par&eacute;s avec soin et servis dans un cadre chaleureux. Notre passion pour l'excellence culinaire s'inspire d'une riche tradition, o&ugrave; chaque plat raconte une histoire et chaque instant est m&eacute;morable.
+        Chez Mehman, nous nous engageons &agrave; offrir des repas exquis pr&eacute;par&eacute;s avec soin et servis dans un cadre chaleureux. Notre passion pour l&rsquo;excellence culinaire s&rsquo;inspire d&rsquo;une riche tradition, o&ugrave; chaque plat raconte une histoire et chaque instant est m&eacute;morable.
       </p>
       <button className="btn btn-hover">Commandez maintenant</button>
     </div>
+
+
         <figure className="delivery-banner">
           <img
             src="/assets/images/delivery-banner-bg.png"
