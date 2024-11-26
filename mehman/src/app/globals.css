@@ -679,11 +679,9 @@ body.active { overflow: hidden; }
 
 .hero-title {
   color: var(--champagne-pink);
-  max-width: 12ch;
+  max-width: 10ch;
   margin-inline: auto;
-  font-size: 1.5rem; /* Adjust this value to make the text smaller */
 }
-
 
 .hero-text {
   color: var(--desert-sand);
