@@ -44,7 +44,7 @@ const StaticMenu = () => {
                   alt="Fried Chicken Unlimited"
                   className="w-100"
                 />
-                <div className="badge">-15%</div>
+                <div className="badge">Délicieux</div>
                 <button className="btn food-menu-btn" onClick={toggleMenu}>Order Now</button>
               </div>
               <div className="wrapper">
