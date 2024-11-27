@@ -40,7 +40,7 @@ const Banner = () => {
               />
               <div className="banner-item-content">
                 <h3 className="banner-title">Poulet délicieux</h3>
-                <p className="banner-text">L'eau à la bouche</p>
+                <p className="banner-text">L&apos;eau à la bouche</p>
                 <button className="btn" onClick={toggleMenu}>Commandez maintenant</button>
               </div>
             </div>

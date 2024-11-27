@@ -31,7 +31,7 @@ const Testinomials = () => {
                 </div>
               </div>
               <blockquote className="testi-text">
-              Mehman est un véritable chef-d'œuvre culinaire. Chaque repas est une explosion de saveurs, et l'ambiance est toujours chaleureuse. Merci de rendre chaque repas spécial!
+              Mehman est un véritable chef-d&apos;œuvre culinaire. Chaque repas est une explosion de saveurs, et l&apos;ambiance est toujours chaleureuse. Merci de rendre chaque repas spécial!
               </blockquote>
               <div className="rating-wrapper">
                 <ion-icon name="star" />

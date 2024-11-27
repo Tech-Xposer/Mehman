@@ -6,7 +6,7 @@ const Blog = () => {
       <div className="container">
         <p className="section-subtitle">Événements organisés au restaurant</p>
         <h2 className="h2 section-title">
-        Il s'agit de tout <span className="span">Aliments</span>
+        Il s&apos;agit de tout <span className="span">Aliments</span>
         </h2>
         <p className="section-text">
         La nourriture est toute substance consommée pour fournir un soutien nutritionnel à un organisme.
@@ -44,7 +44,7 @@ const Blog = () => {
                   </a>
                 </h3>
                 <p className="card-text">
-                N'hésitez pas à nous contacter et à nous faire part de vos commentaires concernant un plat ou une hygiène
+                N&apos;hésitez pas à nous contacter et à nous faire part de vos commentaires concernant un plat ou une hygiène
                 </p>
                 <a href="#" className="btn-link">
                   <span>En savoir plus</span>
@@ -85,7 +85,7 @@ const Blog = () => {
                   </a>
                 </h3>
                 <p className="card-text">
-                Mehman offre une expérience gastronomique incomparable, où chaque plat est une œuvre d'art pleine de saveurs exquises
+                Mehman offre une expérience gastronomique incomparable, où chaque plat est une œuvre d&apos;art pleine de saveurs exquises
                 </p>
                 <a href="#" className="btn-link">
                   <span>En savoir plus</span>

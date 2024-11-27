@@ -1,5 +1,5 @@
 import React from "react";
-import './style.css'
+import "./style.css";
 const ReservationForm = () => {
   return (
     <section className="reservation bg-black-10" id="reservation">
@@ -14,7 +14,7 @@ const ReservationForm = () => {
             <p className="form-text text-center">
               Demande de réservation{" "}
               <a href="tel:0698356157" className="link">
-              06 98 35 61 57
+                06 98 35 61 57
               </a>{" "}
               ou remplissez le formulaire de commande
             </p>
@@ -108,7 +108,7 @@ const ReservationForm = () => {
           <div
             className="form-right text-center"
             style={{
-              backgroundImage: 'url("/assets/images/form-pattern.png")'
+              backgroundImage: 'url("/assets/images/form-pattern.png")',
             }}
           >
             <h2 className="headline-1 text-center">Contactez-nous</h2>
@@ -117,18 +117,20 @@ const ReservationForm = () => {
               href="tel:0698356157"
               className="body-1 contact-number hover-underline"
             >
-              -  06 98 35 61 57 
+              - 06 98 35 61 57
             </a>
             <div className="separator" />
             <p className="contact-label">Address</p>
             <address className="body-4">
-            3 avenue Louis georgeon 94230 Cachan  <br />
+              3 avenue Louis georgeon 94230 Cachan <br />
               France
             </address>
             <p className="menu-text text-center">
-            Horaires <span className="span">12:00</span> à <span className="span">14:30</span> de <span className="span">19:00</span> à <span className="span">23:00</span>
-</p>
-
+              Horaires <span className="span">12:00</span> à{" "}
+              <span className="span">14:30</span> de{" "}
+              <span className="span">19:00</span> à{" "}
+              <span className="span">23:00</span>
+            </p>
           </div>
         </div>
       </div>
