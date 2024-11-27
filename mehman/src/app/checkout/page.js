@@ -14,7 +14,7 @@ const Checkout = () => {
     phone: "",
     email: "",
     address: "",
-    zipcode: ""
+    zipcode: "",
   });
   const [error, setError] = useState("");
 
@@ -29,7 +29,7 @@ const Checkout = () => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
       ...prevData,
-      [name]: value
+      [name]: value,
     }));
   };
 
@@ -68,7 +68,7 @@ const Checkout = () => {
       const response = await fetch("/api/sendmail", {
         method: "POST",
         headers: {
-          "Content-Type": "application/json"
+          "Content-Type": "application/json",
         },
         body: JSON.stringify({
           name,
@@ -77,8 +77,8 @@ const Checkout = () => {
           email,
           address,
           zipcode,
-          orderType: getOrderType(orderType)
-        })
+          orderType: getOrderType(orderType),
+        }),
       });
 
       if (!response.ok) {
@@ -103,7 +103,7 @@ const Checkout = () => {
     .toFixed(2);
 
   return (
-    <div className="flex flex-col items-center justify-center p-5 text-white pt-[100px] md:h-screen w-full bg-black">
+    <div className="flex flex-col items-center justify-center p-5 text-white pt-[100px] md:[h-140vh] w-full bg-black">
       <h2 className="text-5xl mb-4 text-[#F4BE39] font-londrina">Checkout</h2>
 
       {orders.length ? (
@@ -130,32 +130,36 @@ const Checkout = () => {
                 </tr>
               </thead>
               <tbody>
-                {orders.map((order, index) => (
-                  console.log(order),
-                  <tr key={index} className="border-b border-[#F4BE39]">
-                    <td className="p-2">{order.name}</td>
-                    <td className="p-2">{order.quantity || 1}</td>
-                    <td className="p-2">
-                      {( order.price * (order.quantity || 1)).toFixed(2)} €
-                    </td>
-                    {order.option && (
-                      <td colSpan="3" className="p-2">
-                        {order.option}
-                      </td>
-                    )}
-                    {order.selectedItems && (
-                      <td colSpan="3" className="p-2">
-                        <ul>
-                          {Object.keys(order.selectedItems).map((key) => (
-                            <li key={key}>
-                              {key} : {order.selectedItems[key]}
-                            </li>
-                          ))}
-                        </ul>
-                      </td>
-                    )}
-                  </tr>
-                ))}
+                {orders.map(
+                  (order, index) => (
+                    console.log(order),
+                    (
+                      <tr key={index} className="border-b border-[#F4BE39]">
+                        <td className="p-2">{order.name}</td>
+                        <td className="p-2">{order.quantity || 1}</td>
+                        <td className="p-2">
+                          {(order.price * (order.quantity || 1)).toFixed(2)} €
+                        </td>
+                        {order.option && (
+                          <td colSpan="3" className="p-2">
+                            {order.option}
+                          </td>
+                        )}
+                        {order.selectedItems && (
+                          <td colSpan="3" className="p-2">
+                            <ul>
+                              {Object.keys(order.selectedItems).map((key) => (
+                                <li key={key}>
+                                  {key} : {order.selectedItems[key]}
+                                </li>
+                              ))}
+                            </ul>
+                          </td>
+                        )}
+                      </tr>
+                    )
+                  )
+                )}
 
                 <tr>
                   <td colSpan="2" className="text-right p-2 font-semibold">
@@ -169,7 +173,6 @@ const Checkout = () => {
           <div className="flex gap-4 items-center m-5">
             <div>
               {" "}
-            
               <span
                 onClick={() => setOrderType("takeaway")}
                 className={`cursor-pointer relative font-londrina ${
@@ -302,13 +305,13 @@ const Checkout = () => {
       ) : (
         <div className="flex flex-col items-center justify-center h-screen w-full gap-10">
           <span className="text-center text-5xl font-semibold text-[#F4BE39]">
-            Your cart is empty!
+            Votre panier est vide !
           </span>
           <Link
             href="/"
             className="text-3xl bg-[#F4BE39] p-4 rounded text-black hover:bg-yellow-600 transition duration-200"
           >
-            Go to Home
+            Rentre chez toi
           </Link>
         </div>
       )}
