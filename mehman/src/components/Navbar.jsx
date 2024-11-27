@@ -48,15 +48,17 @@ const Navbar = () => {
         >
           <ul className="navbar-list">
             <li className="nav-item">
-              <Link href="/" className="navbar-link" data-nav-link="">
+
+              <a className="navbar-link" href="#about">
                 Accueil
-              </Link>
-            </li>
-            <li className="nav-item">
-              <a  className="navbar-link" data-nav-link="" >
-                À propos de nous
               </a>
             </li>
+            <li className="nav-item">
+  <a className="navbar-link" href="#about">
+    À propos de nous
+  </a>
+</li>
+
             <li className="nav-item">
               <a className="navbar-link flex" data-nav-link="" onClick={()=>toggleMenu(true)}>
                 À Emporter - <span className="text-red-500">10% Surplace</span>

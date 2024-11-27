@@ -60,9 +60,9 @@ const StaticMenu = () => {
               <h3 className="h3 card-title">MURGHI MUGHLAI</h3>
               <div className="price-wrapper">
                 <p className="price-text">Price:</p>
-                <data className="price">$49.00</data>
+                <data className="price">€8.50</data>
                 <del className="del" value={69.0}>
-                  $69.00
+                €7.50
                 </del>
               </div>
             </div>
@@ -78,7 +78,7 @@ const StaticMenu = () => {
                   alt="Burger King Whopper"
                   className="w-100"
                 />
-                <div className="badge">-10%</div>
+                <div className="badge">Exquis</div>
                 <button className="btn food-menu-btn"  onClick={toggleMenu}>Order Now</button>
               </div>
               <div className="wrapper">
@@ -95,9 +95,9 @@ const StaticMenu = () => {
               <div className="price-wrapper">
                 <p className="price-text">Price:</p>
                 <data className="price" value={29.0}>
-                  $29.00
+                €15.00
                 </data>
-                <del className="del">$39.00</del>
+                <del className="del">€13.00</del>
               </div>
             </div>
           </li>
@@ -112,7 +112,7 @@ const StaticMenu = () => {
                   alt="White Castle Pizzas"
                   className="w-100"
                 />
-                <div className="badge">-25%</div>
+                <div className="badge">Savoureux</div>
                 <button className="btn food-menu-btn" onClick={toggleMenu}>Order Now</button>
               </div>
               <div className="wrapper">
@@ -129,9 +129,9 @@ const StaticMenu = () => {
               <div className="price-wrapper">
                 <p className="price-text">Price:</p>
                 <data className="price" value={49.0}>
-                  $49.00
+                €16.50
                 </data>
-                <del className="del">$69.00</del>
+                <del className="del">€14.50</del>
               </div>
             </div>
           </li>
@@ -146,11 +146,11 @@ const StaticMenu = () => {
                   alt="Bell Burrito Supreme"
                   className="w-100"
                 />
-                <div className="badge">-20%</div>
+                <div className="badge">Divin</div>
                 <button className="btn food-menu-btn" onClick={toggleMenu}>Order Now</button>
               </div>
               <div className="wrapper">
-                <p className="category">POULET OU AGNEAU</p>
+                <p className="category">MURGHI MASALA</p>
                 <div className="rating-wrapper">
                   <ion-icon name="star" />
                   <ion-icon name="star" />
@@ -163,9 +163,9 @@ const StaticMenu = () => {
               <div className="price-wrapper">
                 <p className="price-text">Price:</p>
                 <data className="price" value={59.0}>
-                  $59.00
+                €12.00
                 </data>
-                <del className="del">$69.00</del>
+                <del className="del">€13.00</del>
               </div>
             </div>
           </li>
@@ -180,11 +180,11 @@ const StaticMenu = () => {
                   alt="Kung Pao Chicken BBQ"
                   className="w-100"
                 />
-                <div className="badge">-5%</div>
+                <div className="badge">Parfait</div>
                 <button className="btn food-menu-btn" onClick={toggleMenu}>Order Now</button>
               </div>
               <div className="wrapper">
-                <p className="category">FRITES DE POISSON</p>
+                <p className="category">MASHALI MASALA</p>
                 <div className="rating-wrapper">
                   <ion-icon name="star" />
                   <ion-icon name="star" />
@@ -197,9 +197,9 @@ const StaticMenu = () => {
               <div className="price-wrapper">
                 <p className="price-text">Price:</p>
                 <data className="price" value={49.0}>
-                  $49.00
+                €13.50
                 </data>
-                <del className="del">$69.00</del>
+                <del className="del">€12.50</del>
               </div>
             </div>
           </li>
@@ -214,7 +214,7 @@ const StaticMenu = () => {
                   alt="Wendy&apos;s Chicken"
                   className="w-100"
                 />
-                <div className="badge">-15%</div>
+                <div className="badge">Épatant</div>
                 <button className="btn food-menu-btn" onClick={toggleMenu}>Order Now</button>
               </div>
               <div className="wrapper">
@@ -231,9 +231,9 @@ const StaticMenu = () => {
               <div className="price-wrapper">
                 <p className="price-text">Price:</p>
                 <data className="price" value={49.0}>
-                  $49.00
+                €15.00
                 </data>
-                <del className="del">$69.00</del>
+                <del className="del">€13.00</del>
               </div>
             </div>
           </li>
