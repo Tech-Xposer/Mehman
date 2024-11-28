@@ -2,7 +2,7 @@ import React from "react";
 
 const Promo = () => {
   return (
-    <section className="section section-divider  promo">
+    <section className="section section-divider  promo"id="promo">
     <div className="container">
     <h2 className="headline-1 section-title text-6xl mb-10">Nous offrons un service de premier ordre</h2>
       <ul className="promo-list has-scrollbar">
