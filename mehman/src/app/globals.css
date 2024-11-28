@@ -615,13 +615,14 @@ body.active { overflow: hidden; }
   padding-block-start: 100px;
   opacity: 0;
   visibility: hidden;
-  transition: var(--transition-3);
   z-index: 1;
+  transition: opacity 1s ease-in-out, visibility 0s linear 1s; /* Updated for smooth fade */
 }
 
 .hero .slider-item.active {
   opacity: 1;
   visibility: visible;
+  transition: opacity 1s ease-in-out, visibility 0s linear 0s; /* Ensures smooth appearance */
 }
 
 .hero .slider-bg {
@@ -639,6 +640,7 @@ body.active { overflow: hidden; }
 .hero .slider-item.active .slider-bg {
   animation: smoothScale 7s linear forwards;
 }
+
 
 @keyframes smoothScale {
   0% {
