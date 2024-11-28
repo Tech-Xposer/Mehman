@@ -65,15 +65,15 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a href="#blog" className="navbar-link" data-nav-link="">
+              <a href="#blog" className="navbar-link" data-nav-link="" onClick={()=>toggleMenu(true)}>
                 Livraison à domicile
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="navbar-link" data-nav-link="">
-                Panier
-              </a>
-            </li>
+  <Link href="/checkout" className="navbar-link">
+    Panier
+  </Link>
+</li>
           </ul>
         </nav>
         <div className="header-btn-group">
