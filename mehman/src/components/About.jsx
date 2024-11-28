@@ -75,9 +75,14 @@ const About = () => {
               </span>
             </li>
           </ul>
-          <button className="btn btn-hover" onClick={toggleMenu}>
-            Commander maintenant
-          </button>
+          <button 
+  className="btn btn-hover" 
+  onClick={() => {
+    document.getElementById("reservation")?.scrollIntoView({ behavior: "smooth" });
+  }}
+>
+  réservation de table
+</button>
         </div>
       </div>
     </section>
