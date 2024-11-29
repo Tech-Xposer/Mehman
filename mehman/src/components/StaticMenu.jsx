@@ -60,10 +60,8 @@ const StaticMenu = () => {
               <h3 className="h3 card-title">MURGHI MUGHLAI</h3>
               <div className="price-wrapper">
                 <p className="price-text">Price:</p>
-                <data className="price">€8.50</data>
-                <del className="del" value={69.0}>
-                €7.50
-                </del>
+                <data className="price">€7.50</data>
+                
               </div>
             </div>
           </li>
@@ -95,9 +93,9 @@ const StaticMenu = () => {
               <div className="price-wrapper">
                 <p className="price-text">Price:</p>
                 <data className="price" value={29.0}>
-                €15.00
+                €13.00
                 </data>
-                <del className="del">€13.00</del>
+                
               </div>
             </div>
           </li>
@@ -129,9 +127,9 @@ const StaticMenu = () => {
               <div className="price-wrapper">
                 <p className="price-text">Price:</p>
                 <data className="price" value={49.0}>
-                €16.50
+                €14.50
                 </data>
-                <del className="del">€14.50</del>
+                
               </div>
             </div>
           </li>
@@ -163,9 +161,9 @@ const StaticMenu = () => {
               <div className="price-wrapper">
                 <p className="price-text">Price:</p>
                 <data className="price" value={59.0}>
-                €12.00
+                €13.00
                 </data>
-                <del className="del">€13.00</del>
+                
               </div>
             </div>
           </li>
@@ -197,9 +195,9 @@ const StaticMenu = () => {
               <div className="price-wrapper">
                 <p className="price-text">Price:</p>
                 <data className="price" value={49.0}>
-                €13.50
+                €12.50
                 </data>
-                <del className="del">€12.50</del>
+                
               </div>
             </div>
           </li>
@@ -231,9 +229,9 @@ const StaticMenu = () => {
               <div className="price-wrapper">
                 <p className="price-text">Price:</p>
                 <data className="price" value={49.0}>
-                €15.00
+                €13.00
                 </data>
-                <del className="del">€13.00</del>
+                
               </div>
             </div>
           </li>
