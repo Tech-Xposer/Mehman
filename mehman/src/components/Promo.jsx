@@ -22,7 +22,7 @@ const Promo = () => {
   />
 </svg>
             </div>
-            <h3 className="h3 card-title">Poisson grillé</h3>
+            <h3 className="h3 card-title">Prawns Masala</h3>
             <p className="card-text">
               Les aliments sont consommés pour maintenir la santé et favoriser la
               croissance.
@@ -55,7 +55,7 @@ const Promo = () => {
 
 
             </div>
-            <h3 className="h3 card-title">MURGHI MASALA</h3>
+            <h3 className="h3 card-title">Butter Chicken</h3>
             <p className="card-text">
               Manger permet à un organisme d&apos;obtenir les nutriments dont il a
               besoin pour fonctionner.
@@ -119,7 +119,7 @@ const Promo = () => {
 </svg>
 
             </div>
-            <h3 className="h3 card-title">GHOST MILANE</h3>
+            <h3 className="h3 card-title">Poisson grillé</h3>
             <p className="card-text">
               La nourriture fournit les vitamines et minéraux nécessaires à notre
               bien-être.
@@ -151,7 +151,7 @@ const Promo = () => {
 </svg>
 
             </div>
-            <h3 className="h3 card-title">Poulet masala.</h3>
+            <h3 className="h3 card-title">Murgh Biryani</h3>
             <p className="card-text">
               Les aliments sont consommés pour préserver l&apos;équilibre énergétique
               et biologique du corps.
