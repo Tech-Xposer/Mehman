@@ -31,7 +31,7 @@ export default function Home() {
       <Blog/>
       <ReservationForm/>
       <BackToTop/>
-    {  menuOpen && <Menu/>}
+    {/* {  menuOpen && <Menu/>} */}
 
     </article>
    </main>

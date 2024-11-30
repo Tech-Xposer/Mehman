@@ -38,7 +38,7 @@ const Navbar = () => {
     >
       <div className="container">
         <h1>
-          <Link href="" className="logo">
+          <Link href="/" className="logo">
             Mehman<span className="span">.</span>
           </Link>
         </h1>
@@ -49,25 +49,25 @@ const Navbar = () => {
           <ul className="navbar-list">
             <li className="nav-item">
 
-              <a className="navbar-link" href="#promo">
+              <Link className="navbar-link" href="/#promo">
                 Accueil
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-  <a className="navbar-link" href="#about">
+  <Link className="navbar-link" href="/#about">
     À propos de nous
-  </a>
+  </Link>
 </li>
 
             <li className="nav-item">
-              <a className="navbar-link flex" data-nav-link="" onClick={()=>toggleMenu(true)}>
+              <button className="navbar-link flex" data-nav-link="" onClick={()=>toggleMenu(true)}>
                 À Emporter - <span className="text-red-500">10% Surplace</span>
-              </a>
+              </button>
             </li>
             <li className="nav-item">
-              <a href="#blog" className="navbar-link" data-nav-link="" onClick={()=>toggleMenu(true)}>
+              <button href="#blog" className="navbar-link" data-nav-link="" onClick={()=>toggleMenu(true)}>
                 Livraison à domicile
-              </a>
+              </button>
             </li>
             <li className="nav-item">
   <Link href="/checkout" className="navbar-link">
@@ -84,9 +84,9 @@ const Navbar = () => {
             
           >
           </button>
-          <a href="#reservation" className="btn btn-hover">
+          <Link href="/#reservation" className="btn btn-hover">
             Réservation
-          </a>
+          </Link>
           <button
             className={`nav-toggle-btn ${isActive?"active":""}`}
             aria-label="Toggle Menu"

@@ -170,30 +170,32 @@ const Checkout = () => {
               </tbody>
             </table>
           </div>
-          <div className="flex gap-4 items-center m-5">
-            <div>
-              {" "}
+          <div className="flex flex-col gap-4 items-center m-5 ">
+            <div className="flex item-center justify-center gap-5 relative mt-5">
+              <span className="text-2xl text-red-500 font-shadows fixed mt-[-22px] font-bold mr-60 ">-10% Surplace</span>
+             
               <span
                 onClick={() => setOrderType("takeaway")}
-                className={`cursor-pointer relative font-londrina ${
+                className={`cursor-pointer  font-londrina  ${
                   orderType === "takeaway"
                     ? "bg-[#F4BE39] p-2 text-black "
                     : "text-white"
                 }`}
               >
+                
                 À Emporter
               </span>
-            </div>
             <span
               onClick={() => setOrderType("home-delivery")}
               className={`cursor-pointer font-londrina ${
                 orderType === "home-delivery"
-                  ? "bg-[#F4BE39] p-2 text-black "
-                  : "text-white"
+                ? "bg-[#F4BE39] p-2 text-black "
+                : "text-white"
               }`}
-            >
+              >
               Livraison à domicile
             </span>
+              </div>
           </div>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
