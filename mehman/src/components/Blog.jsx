@@ -81,7 +81,7 @@ const Blog = () => {
                 </div>
                 <h3 className="h3">
                   <a href="#" className="card-title">
-                  Préparez des lanières de poulet avec de nouveaux ingrédients délicieux.
+                  Préparez des lanières de poulet avec de nouveaux ingrédients délicieux. 
                   </a>
                 </h3>
                 <p className="card-text">
