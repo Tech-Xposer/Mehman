@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className="container">
         <h1>
           <Link href="" className="logo">
-            Mehman<span className="span">.</span>
+            Mehman Indien<span className="span">.</span>
           </Link>
         </h1>
         <nav
