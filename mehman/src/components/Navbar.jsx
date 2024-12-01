@@ -38,7 +38,7 @@ const Navbar = () => {
     >
       <div className="container">
         <h1>
-          <Link href="" className="logo">
+          <Link href="/" className="logo">
             Mehman Indien<span className="span">.</span>
           </Link>
         </h1>
