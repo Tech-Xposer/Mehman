@@ -19,23 +19,13 @@ const Footer = () => {
             </p>
             <ul className="social-list">
               <li>
-                <a href="#" className="social-link">
+                <a href="https://www.facebook.com/RestaurantMehman?mibextid=LQQJ4d&rdid=lx0inB3ysIy5gnTH&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FkTRW3iVtsL3faNSp%2F%3Fmibextid%3DLQQJ4d" className="social-link">
                   <ion-icon name="logo-facebook" />
                 </a>
               </li>
               <li>
-                <a href="#" className="social-link">
-                  <ion-icon name="logo-twitter" />
-                </a>
-              </li>
-              <li>
-                <a href="#" className="social-link">
+                <a href="https://www.instagram.com/mehmanindien/profilecard/?igsh=eTV6c2Q2YmtkZjc4" className="social-link">
                   <ion-icon name="logo-instagram" />
-                </a>
-              </li>
-              <li>
-                <a href="#" className="social-link">
-                  <ion-icon name="logo-pinterest" />
                 </a>
               </li>
             </ul>
