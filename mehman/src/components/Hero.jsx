@@ -1,22 +1,6 @@
-"use client";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { useMenu } from "@/contexts/MenuContext";
-
-const images = [
-
-  "/assets/images/0.png",
-  "/assets/images/1.png",
-  "/assets/images/2.png",
-  "/assets/images/3.png",
-  "/assets/images/4.png",
-  "/assets/images/5.png",
-  "/assets/images/6.png",
-  "/assets/images/7.png",
-  "/assets/images/8.png",
-  "/assets/images/9.png",
-  "/assets/images/main.jpg",
-];
 
 const Hero = () => {
   const { menuOpen, toggleMenu } = useMenu();
@@ -34,31 +18,6 @@ const Hero = () => {
       title: "Un goût authentique de\nBiryani au poulet",
       text: "Savourez chaque bouchée de notre Biryani, une explosion de saveurs exquises qui éveilleront vos sens.",
       imgSrc: "/assets/images/main.jpg",
-    },
-    {
-      subtitle: "Traditionnel et hygiène",
-      title: "Pour l'amour du\nChicken Tandoori",
-      text: "Venez en famille et savourez le goût fumé et épicé de notre Chicken Tandoori, une vrai délice.",
-      imgSrc: "/assets/images/2.png",
-    },
-    {
-      subtitle: "Incroyable et délicieux",
-      title: "Un voyage savoureux avec\nle nourriture traditionnel",
-      text: "Découvrez la richesse de la cuisine traditionnelle, où chaque plat raconte une histoire de saveurs et de savoir-faire.",
-      imgSrc: "/assets/images/3.png",
-    },
-
-    {
-      subtitle: "Croustillant et épicé",
-      title: "L'irrésistible\nSamosa traditionnel",
-      text: "Savourez le mélange parfait de pommes de terre épicées et d'une pâte dorée et croustillante.",
-      imgSrc: "/assets/images/4.png",
-    },
-    {
-      subtitle: "Croustillant et épicé",
-      title: "L'irrésistible\nSamosa traditionnel",
-      text: "Savourez le mélange parfait de pommes de terre épicées et d'une pâte dorée et croustillante.",
-      imgSrc: "/assets/images/6.png",
     },
   ];
 
@@ -103,29 +62,36 @@ const Hero = () => {
               <div className="hero-content">
                 <p className="hero-subtitle">Manger, dormir et répéter</p>
                 <h2 className="h1 hero-title">
-                Nourriture super délicieuse en ville
+                  Nourriture super délicieuse en ville
                 </h2>
                 <p className="hero-text">
                   La nourriture est toute substance consommée pour fournir un
                   soutien nutritionnel à un organisme
                 </p>
-                <button className="btn" id="reservation-btn" onClick={toggleMenu}>
-                Commandez vos plats
+                <button
+                  className="btn"
+                  id="reservation-btn"
+                  onClick={toggleMenu}
+                >
+                  Commandez vos plats
                 </button>
+
+                {/* GIF Section */}
+                <div className="gif-container">
+                  <a
+                    href="https://www.instagram.com/restaurantmuskan?igsh=ZGFyaW4xN2J5bWF5&utm_source=qr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="/assets/images/Suivez-nous-unscreen.gif"
+                      alt="Instagram GIF"
+                      className="infinite-gif"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
-            {/* <p className="label-2 section-subtitle slider-reveal">
-              {item.subtitle}
-            </p>
-            <h1 className="display-1 hero-title slider-reveal">
-              {item.title.split("\n").map((line, i) => (
-                <span key={i}>
-                  {line}
-                  <br />
-                </span>
-              ))}
-            </h1>
-            <p className="body-2 hero-text slider-reveal">{item.text}</p> */}
           </li>
         ))}
       </ul>
@@ -143,6 +109,21 @@ const Hero = () => {
       >
         <ion-icon name="chevron-forward" />
       </button>
+
+      <style jsx>{`
+        .gif-container {
+          margin-top: 20px; /* Add spacing between button and GIF */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .infinite-gif {
+          width: 150px; /* Adjust size as needed */
+          height: auto;
+          animation: none;
+          cursor: pointer;
+        }
+      `}</style>
     </section>
   );
 };
