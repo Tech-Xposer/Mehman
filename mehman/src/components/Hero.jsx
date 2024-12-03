@@ -19,6 +19,30 @@ const Hero = () => {
       text: "Savourez chaque bouchée de notre Biryani, une explosion de saveurs exquises qui éveilleront vos sens.",
       imgSrc: "/assets/images/main.jpg",
     },
+    {
+      subtitle: "Traditionnel et hygiène",
+      title: "Pour l'amour du\nChicken Tandoori",
+      text: "Venez en famille et savourez le goût fumé et épicé de notre Chicken Tandoori, une vrai délice.",
+      imgSrc: "/assets/images/2.png",
+    },
+    {
+      subtitle: "Incroyable et délicieux",
+      title: "Un voyage savoureux avec\nle nourriture traditionnel",
+      text: "Découvrez la richesse de la cuisine traditionnelle, où chaque plat raconte une histoire de saveurs et de savoir-faire.",
+      imgSrc: "/assets/images/3.png",
+    },
+    {
+      subtitle: "Croustillant et épicé",
+      title: "L'irrésistible\nSamosa traditionnel",
+      text: "Savourez le mélange parfait de pommes de terre épicées et d'une pâte dorée et croustillante.",
+      imgSrc: "/assets/images/4.png",
+    },
+    {
+      subtitle: "Croustillant et épicé",
+      title: "L'irrésistible\nSamosa traditionnel",
+      text: "Savourez le mélange parfait de pommes de terre épicées et d'une pâte dorée et croustillante.",
+      imgSrc: "/assets/images/6.png",
+    },
   ];
 
   const slideNext = () => {
@@ -112,16 +136,22 @@ const Hero = () => {
 
       <style jsx>{`
         .gif-container {
-          margin-top: 20px; /* Add spacing between button and GIF */
-          display: flex;
-          justify-content: center;
-          align-items: center;
+          margin-top: 20px;
+          display: none; /* Default is hidden */
         }
         .infinite-gif {
-          width: 150px; /* Adjust size as needed */
+          width: 150px;
           height: auto;
-          animation: none;
           cursor: pointer;
+        }
+
+        /* Show GIF only on mobile devices */
+        @media (max-width: 768px) {
+          .gif-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
         }
       `}</style>
     </section>
