@@ -45,7 +45,7 @@ const StaticMenu = () => {
                   className="w-100"
                 />
                 <div className="badge">Délicieux</div>
-                <button className="btn food-menu-btn" onClick={toggleMenu}>Order Now</button>
+                <button className="btn food-menu-btn" onClick={toggleMenu}>Commandez Maintenant</button>
               </div>
               <div className="wrapper">
                 <p className="category">SHEAK KABAB</p>
@@ -77,7 +77,7 @@ const StaticMenu = () => {
                   className="w-100"
                 />
                 <div className="badge">Exquis</div>
-                <button className="btn food-menu-btn"  onClick={toggleMenu}>Order Now</button>
+                <button className="btn food-menu-btn"  onClick={toggleMenu}>Commandez Maintenant</button>
               </div>
               <div className="wrapper">
                 <p className="category">GHOST MASALA</p>
@@ -111,7 +111,7 @@ const StaticMenu = () => {
                   className="w-100"
                 />
                 <div className="badge">Savoureux</div>
-                <button className="btn food-menu-btn" onClick={toggleMenu}>Order Now</button>
+                <button className="btn food-menu-btn" onClick={toggleMenu}>Commandez Maintenant</button>
               </div>
               <div className="wrapper">
                 <p className="category">Tandoori Chicken</p>
@@ -145,7 +145,7 @@ const StaticMenu = () => {
                   className="w-100"
                 />
                 <div className="badge">Divin</div>
-                <button className="btn food-menu-btn" onClick={toggleMenu}>Order Now</button>
+                <button className="btn food-menu-btn" onClick={toggleMenu}>Commandez Maintenant</button>
               </div>
               <div className="wrapper">
                 <p className="category">MURGHI MASALA</p>
@@ -179,7 +179,7 @@ const StaticMenu = () => {
                   className="w-100"
                 />
                 <div className="badge">Parfait</div>
-                <button className="btn food-menu-btn" onClick={toggleMenu}>Order Now</button>
+                <button className="btn food-menu-btn" onClick={toggleMenu}>Commandez Maintenant</button>
               </div>
               <div className="wrapper">
                 <p className="category">MASHALI MASALA</p>
@@ -213,7 +213,7 @@ const StaticMenu = () => {
                   className="w-100"
                 />
                 <div className="badge">Épatant</div>
-                <button className="btn food-menu-btn" onClick={toggleMenu}>Order Now</button>
+                <button className="btn food-menu-btn" onClick={toggleMenu}>Commandez Maintenant</button>
               </div>
               <div className="wrapper">
                 <p className="category">BUTTER CHICKEN</p>
