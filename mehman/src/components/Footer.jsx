@@ -35,7 +35,7 @@ const Footer = () => {
               <p className="footer-list-title">Contact Info</p>
             </li>
             <li>
-              <p className="footer-list-item">06 98 35 61 57</p>
+              <p className="footer-list-item">01 46 63 45 58</p>
             </li>
             <li>
               <p className="footer-list-item">restaurantmilane@Gmail.com</p>
