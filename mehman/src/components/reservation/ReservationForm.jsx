@@ -126,10 +126,10 @@ const ReservationForm = () => {
               France
             </address>
             <p className="menu-text text-center">
-              Horaires <span className="span">12:00</span> à{" "}
-              <span className="span">14:30</span> de{" "}
-              <span className="span">19:00</span> à{" "}
-              <span className="span">23:00</span>
+              Horaires <span className="span"> 12:00 </span> à{" "}
+              <span className="span"> 4:30 </span> et{" "}
+              <span className="span"> 19:00 </span> à{" "}
+              <span className="span"> 23:00 </span>
             </p>
           </div>
         </div>
