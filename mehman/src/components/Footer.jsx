@@ -51,7 +51,7 @@ const Footer = () => {
               <p className="footer-list-title">Opening Hours</p>
             </li>
             <li>
-              <p className="footer-list-item">Horaires 12:00 à 14:30 de 19:00 à 23:00</p>
+              <p className="footer-list-item">Horaires 12:00 à 14:30 et 19:00 à 23:00</p>
             </li>
           </ul>
           <div className="footer-bottom">
