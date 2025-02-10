@@ -14,7 +14,7 @@ const ReservationForm = () => {
             <p className="form-text text-center">
               Demande de réservation{" "}
               <a href="tel:0698356157" className="link">
-                >01 46 63 45 58
+              &gt;01 46 63 45 58
               </a>{" "}
               ou remplissez le formulaire de commande
             </p>
