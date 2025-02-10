@@ -38,7 +38,7 @@ const Footer = () => {
               <p className="footer-list-item">01 46 63 45 58</p>
             </li>
             <li>
-              <p className="footer-list-item">restaurantmilane@Gmail.com</p>
+              <p className="footer-list-item">restaurantmehman@Gmail.com</p>
             </li>
             <li>
               <address className="footer-list-item">
