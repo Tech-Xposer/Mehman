@@ -114,7 +114,7 @@ const ReservationForm = () => {
             <h2 className="headline-1 text-center">Contactez-nous</h2>
             <p className="contact-label">Demande de réservation</p>
             <a
-              href="tel:0698356157"
+              href="tel:0146634558"
               className="body-1 contact-number hover-underline"
             >
               - 01 46 63 45 58
